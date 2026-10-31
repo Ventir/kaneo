@@ -1819,11 +1819,11 @@
 			"copied": "Skopiowano",
 			"copyError": "Nie udało się skopiować linku",
 			"membersDescription": "Wszyscy w obszarze roboczym, zgodnie z uprawnieniami swojej roli.",
-			"membersTitle": "Członkowie {{workspace}}",
+			"membersTitle": "Członkowie obszaru {{workspace}}",
 			"offNote": "Po wyłączeniu link publiczny od razu przestaje działać.",
 			"on": "Włączony",
 			"openPublicPage": "Otwórz stronę publiczną",
-			"thisWorkspace": "tego obszaru roboczego"
+			"thisWorkspace": "roboczego"
 		},
 		"projectWorkflow": {
 			"automationDescription": "Przenoś powiązane zadanie, gdy coś wydarzy się w połączonym repozytorium.",
@@ -2207,7 +2207,7 @@
 			"sectionSubtitle": "Edytuj role domyślne lub dodaj własną. Członkowie zachowują przypisaną nazwę roli podczas edycji.",
 			"sectionTitle": "Role obszaru roboczego",
 			"subtitle": "Określ, jakie działania członkowie mogą wykonywać w obszarze {{workspaceName}}.",
-			"thisWorkspace": "ten obszar roboczy",
+			"thisWorkspace": "roboczym",
 			"title": "Role",
 			"toast": {
 				"created": "Utworzono rolę",
@@ -5231,7 +5231,7 @@
 		"workspaceSettings": {
 			"title": "Obszar roboczy",
 			"description": "Ustawienia dla wszystkich w obszarze {{name}}.",
-			"thisWorkspace": "tym obszarze roboczym",
+			"thisWorkspace": "roboczym",
 			"general": {
 				"title": "Ogólne",
 				"name": "Nazwa",
@@ -5270,7 +5270,7 @@
 			"description_few": "{{count}} osoby w obszarze {{name}}",
 			"description_many": "{{count}} osób w obszarze {{name}}",
 			"description_other": "{{count}} osoby w obszarze {{name}}",
-			"thisWorkspace": "tym obszarze roboczym",
+			"thisWorkspace": "roboczym",
 			"invite": "Zaproś",
 			"pending": {
 				"title": "Oczekujące zaproszenia",
