@@ -206,6 +206,7 @@ function getLocaleKey(locale?: string | null) {
   if (normalized?.startsWith("de")) return "de";
   if (normalized?.startsWith("vi")) return "vi";
   if (normalized?.startsWith("ja")) return "ja";
+  if (normalized?.startsWith("pl")) return "pl";
   if (normalized === "zh-tw") return "zh-tw";
   return "en";
 }
@@ -259,6 +260,15 @@ function getAuthEmailCopy(locale?: string | null, instanceName = "Kaneo") {
       magicLinkSubject: `${instanceName} ログインリンク`,
       otpSubject: (otp: string) => `${instanceName} のサインインコード: ${otp}`,
       passwordResetSubject: `${instanceName} のパスワードをリセット`,
+    };
+  }
+
+  if (localeKey === "pl") {
+    return {
+      magicLinkSubject: `Link logowania do ${instanceName}`,
+      otpSubject: (otp: string) =>
+        `${otp} to Twój kod logowania do ${instanceName}`,
+      passwordResetSubject: `Zresetuj hasło do ${instanceName}`,
     };
   }
 

@@ -2,6 +2,7 @@ import deDE from "../../../../i18n/de-DE.json";
 import enUS from "../../../../i18n/en-US.json";
 import frFR from "../../../../i18n/fr-FR.json";
 import jaJP from "../../../../i18n/ja-JP.json";
+import plPL from "../../../../i18n/pl-PL.json";
 import ptBR from "../../../../i18n/pt-BR.json";
 import viVN from "../../../../i18n/vi-VN.json";
 import zhTW from "../../../../i18n/zh-TW.json";
@@ -11,6 +12,7 @@ const bundles = {
   en: enUS,
   fr: frFR,
   ja: jaJP,
+  pl: plPL,
   pt: ptBR,
   vi: viVN,
   zhTW: zhTW,
@@ -22,6 +24,7 @@ function getBundle(locale?: string | null) {
   if (normalizedLocale?.startsWith("de")) return bundles.de;
   if (normalizedLocale?.startsWith("fr")) return bundles.fr;
   if (normalizedLocale?.startsWith("ja")) return bundles.ja;
+  if (normalizedLocale?.startsWith("pl")) return bundles.pl;
   if (normalizedLocale?.startsWith("pt")) return bundles.pt;
   if (normalizedLocale?.startsWith("vi")) return bundles.vi;
   if (normalizedLocale === "zh-tw") return bundles.zhTW;

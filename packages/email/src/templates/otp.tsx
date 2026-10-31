@@ -87,6 +87,19 @@ const messages = {
       "你可以忽略這封郵件。沒有這組驗證碼，任何人都無法進入你的帳號。Kaneo 絕不會要求你分享驗證碼。",
     footer: "Kaneo 安全性通知",
   },
+  pl: {
+    preview: `Wpisz go na stronie logowania, aby kontynuować. Wygasa po ${minutes} minutach.`,
+    title: "Zaloguj się do Kaneo",
+    subtitle:
+      "Wpisz ten kod na stronie logowania, aby dokończyć logowanie. Działa jednorazowo.",
+    codeLabel: "Kod weryfikacyjny",
+    code: "to Twój kod weryfikacyjny Kaneo.",
+    expiry: `Ten kod wygasa po ${minutes} minutach.`,
+    ignoreTitle: "To nie Ty próbujesz się zalogować?",
+    ignore:
+      "Możesz zignorować tę wiadomość. Nikt nie zaloguje się na Twoje konto bez tego kodu. Kaneo nigdy nie poprosi Cię o jego udostępnienie.",
+    footer: "Wiadomość bezpieczeństwa Kaneo",
+  },
 } as const;
 
 const OtpEmail = ({

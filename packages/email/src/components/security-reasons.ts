@@ -13,6 +13,8 @@ export const signInReason: Record<EmailLocale, Reason> = {
     `${instance} へのサインインがリクエストされたため、${email} に送信しました。`,
   "zh-tw": (email, instance = "Kaneo") =>
     `因為有人要求登入 ${instance}，所以寄送至 ${email}。`,
+  pl: (email, instance = "Kaneo") =>
+    `Wysłano na adres ${email}, ponieważ ktoś poprosił o zalogowanie do ${instance}.`,
 };
 
 export const signUpReason: Record<EmailLocale, Reason> = {
@@ -26,6 +28,8 @@ export const signUpReason: Record<EmailLocale, Reason> = {
     `このアドレスで ${instance} のアカウントが作成されたため、${email} に送信しました。`,
   "zh-tw": (email, instance = "Kaneo") =>
     `因為有人使用這個地址在 ${instance} 建立了帳號，所以寄送至 ${email}。`,
+  pl: (email, instance = "Kaneo") =>
+    `Wysłano na adres ${email}, ponieważ ktoś utworzył konto w ${instance} z użyciem tego adresu.`,
 };
 
 export const passwordResetReason: Record<EmailLocale, Reason> = {
@@ -39,6 +43,8 @@ export const passwordResetReason: Record<EmailLocale, Reason> = {
     `${instance} でパスワードのリセットがリクエストされたため、${email} に送信しました。`,
   "zh-tw": (email, instance = "Kaneo") =>
     `因為有人要求在 ${instance} 重設密碼，所以寄送至 ${email}。`,
+  pl: (email, instance = "Kaneo") =>
+    `Wysłano na adres ${email}, ponieważ ktoś poprosił o zresetowanie hasła w ${instance}.`,
 };
 
 export const administratorReason: Record<EmailLocale, Reason> = {
@@ -52,4 +58,6 @@ export const administratorReason: Record<EmailLocale, Reason> = {
     `${instance} の管理者がこのメールの送信をリクエストしたため、${email} に送信しました。`,
   "zh-tw": (email, instance = "Kaneo") =>
     `因為 ${instance} 的管理員要求 Kaneo 寄送這封郵件，所以寄送至 ${email}。`,
+  pl: (email, instance = "Kaneo") =>
+    `Wysłano na adres ${email}, ponieważ administrator ${instance} zlecił Kaneo wysłanie tej wiadomości.`,
 };

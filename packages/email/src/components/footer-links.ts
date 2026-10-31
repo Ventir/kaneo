@@ -7,6 +7,7 @@ const labels: Record<EmailLocale, { help: string; privacy: string }> = {
   vi: { help: "Trợ giúp", privacy: "Quyền riêng tư" },
   ja: { help: "ヘルプ", privacy: "プライバシー" },
   "zh-tw": { help: "說明", privacy: "隱私權" },
+  pl: { help: "Pomoc", privacy: "Prywatność" },
 };
 
 export function footerLinks(

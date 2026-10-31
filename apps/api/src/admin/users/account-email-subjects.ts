@@ -23,6 +23,11 @@ const subjects = {
     reset: "{{instanceName}} の新しいパスワードを設定",
     verification: "{{instanceName}} のメールアドレスを確認",
   },
+  pl: {
+    setup: "Skonfiguruj swoje konto {{instanceName}}",
+    reset: "Ustaw nowe hasło do {{instanceName}}",
+    verification: "Potwierdź swój adres e-mail w {{instanceName}}",
+  },
   "zh-tw": {
     setup: "設定你的 {{instanceName}} 帳號",
     reset: "設定新的 {{instanceName}} 密碼",

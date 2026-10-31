@@ -41,6 +41,7 @@ const fallback = {
   vi: "Nút không hoạt động? Dán liên kết này vào trình duyệt:",
   ja: "ボタンが機能しない場合は、このリンクをブラウザに貼り付けてください：",
   "zh-tw": "按鈕無法使用？請將此連結貼到瀏覽器：",
+  pl: "Przycisk nie działa? Wklej ten link do przeglądarki:",
 } as const;
 
 const footer = {
@@ -49,6 +50,7 @@ const footer = {
   vi: "Email tài khoản Kaneo",
   ja: "Kaneo アカウントメール",
   "zh-tw": "Kaneo 帳號通知",
+  pl: "Wiadomość o koncie Kaneo",
 } as const;
 
 const setup: Record<keyof typeof fallback, Copy> = {
@@ -101,6 +103,16 @@ const setup: Record<keyof typeof fallback, Copy> = {
     noteTitle: "沒有預期收到這封郵件？",
     note: "你可以忽略這封郵件。在有人開啟此連結並設定密碼之前，不會設定任何密碼。",
   },
+  pl: {
+    preview:
+      "Administrator utworzył dla Ciebie konto Kaneo. Ustaw hasło, aby się zalogować.",
+    title: "Skonfiguruj konto Kaneo",
+    subtitle: (name) =>
+      `${name ? `Witaj, ${name}. Administrator` : "Administrator"} utworzył dla Ciebie konto Kaneo. Ustaw hasło, aby się zalogować. Link działa jednorazowo i wygasa po 2 dniach.`,
+    cta: "Ustaw hasło",
+    noteTitle: "Nie spodziewasz się tej wiadomości?",
+    note: "Możesz ją zignorować. Hasło nie zostanie ustawione, dopóki ktoś nie otworzy tego linku i go nie wybierze.",
+  },
 };
 
 const reset: Record<keyof typeof fallback, Copy> = {
@@ -152,6 +164,16 @@ const reset: Record<keyof typeof fallback, Copy> = {
     cta: "設定新密碼",
     noteTitle: "不需要新密碼？",
     note: "你可以忽略這封郵件。在有人開啟此連結並設定新密碼之前，你的密碼都不會變更。",
+  },
+  pl: {
+    preview:
+      "Administrator wysłał Ci link do ustawienia nowego hasła. Link wygasa po 1 godzinie.",
+    title: "Ustaw nowe hasło",
+    subtitle: (name) =>
+      `${name ? `Witaj, ${name}. Administrator` : "Administrator"} wysłał Ci link do ustawienia nowego hasła do Kaneo. Link działa jednorazowo i wygasa po 1 godzinie.`,
+    cta: "Ustaw nowe hasło",
+    noteTitle: "Nie potrzebujesz nowego hasła?",
+    note: "Możesz zignorować tę wiadomość. Hasło pozostanie bez zmian, dopóki ktoś nie otworzy tego linku i nie ustawi nowego.",
   },
 };
 

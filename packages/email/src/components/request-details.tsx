@@ -68,6 +68,14 @@ const messages: Record<EmailLocale, Messages> = {
     device: "裝置",
     browserOn: (browser, os) => `${os} 上的 ${browser}`,
   },
+  pl: {
+    title: "Szczegóły żądania",
+    account: "Konto",
+    instance: "Instancja",
+    requested: "Data żądania",
+    device: "Urządzenie",
+    browserOn: (browser, os) => `${browser} w systemie ${os}`,
+  },
 };
 
 function describeDevice(copy: Messages, device?: RequestDevice) {

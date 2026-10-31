@@ -113,6 +113,20 @@ const messages = {
       low: "低優先",
     },
   },
+  pl: {
+    preview: "Masz nowe powiadomienie z Kaneo",
+    subtitle: "To powiadomienie pasuje do Twoich ustawień dostarczania.",
+    footer: "Powiadomienie Kaneo",
+    actionLabel: "Otwórz w Kaneo",
+    openTask: "Otwórz zadanie",
+    manage: "Zarządzaj powiadomieniami",
+    priority: {
+      urgent: "Priorytet pilny",
+      high: "Priorytet wysoki",
+      medium: "Priorytet średni",
+      low: "Priorytet niski",
+    },
+  },
 } as const;
 
 const NotificationEmail = ({

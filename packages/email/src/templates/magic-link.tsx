@@ -84,6 +84,18 @@ const messages = {
       "你可以忽略這封郵件。沒有開啟此連結，任何人都無法進入你的帳號。Kaneo 絕不會要求你轉寄此連結。",
     footer: "Kaneo 安全性通知",
   },
+  pl: {
+    preview: "Użyj go, aby dokończyć logowanie. Wygasa po 5 minutach.",
+    title: "Zaloguj się do Kaneo",
+    subtitle:
+      "Użyj przycisku poniżej, aby dokończyć logowanie. Link działa jednorazowo i wygasa po 5 minutach.",
+    cta: "Zaloguj się do Kaneo",
+    fallback: "Przycisk nie działa? Wklej ten link do przeglądarki:",
+    ignoreTitle: "To nie Ty próbujesz się zalogować?",
+    ignore:
+      "Możesz zignorować tę wiadomość. Nikt nie zaloguje się na Twoje konto bez otwarcia tego linku. Kaneo nigdy nie poprosi Cię o jego przekazanie.",
+    footer: "Wiadomość bezpieczeństwa Kaneo",
+  },
 } as const;
 
 const MagicLinkEmail = ({

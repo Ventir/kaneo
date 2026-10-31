@@ -98,6 +98,21 @@ const messages = {
       "你可以忽略這封郵件。在有人開啟此連結並設定新密碼之前，你的密碼都不會變更。",
     footer: "Kaneo 安全性通知",
   },
+  pl: {
+    preview:
+      "Użyj linku w środku, aby ustawić nowe hasło. Link wygasa po 1 godzinie.",
+    title: "Zresetuj hasło",
+    subtitleWithName: (name: string) =>
+      `Witaj, ${name}. Użyj przycisku poniżej, aby ustawić nowe hasło. Link działa jednorazowo i wygasa po 1 godzinie.`,
+    subtitleDefault:
+      "Użyj przycisku poniżej, aby ustawić nowe hasło. Link działa jednorazowo i wygasa po 1 godzinie.",
+    cta: "Zresetuj hasło",
+    fallback: "Przycisk nie działa? Wklej ten link do przeglądarki:",
+    ignoreTitle: "To nie Ty prosisz o reset?",
+    ignore:
+      "Możesz zignorować tę wiadomość. Hasło pozostanie bez zmian, dopóki ktoś nie otworzy tego linku i nie ustawi nowego.",
+    footer: "Wiadomość bezpieczeństwa Kaneo",
+  },
 } as const;
 
 const PasswordResetEmail = ({

@@ -82,6 +82,17 @@ const messages = {
     note: "你可以忽略這封郵件。除非有人開啟此連結，否則不會有任何變更。",
     footer: "Kaneo 帳號通知",
   },
+  pl: {
+    preview: "Potwierdź, że ten adres e-mail należy do Ciebie.",
+    title: "Potwierdź adres e-mail",
+    subtitle: (name?: string) =>
+      `${name ? `Witaj, ${name}. Potwierdź` : "Potwierdź"}, że ten adres należy do Ciebie, aby można było używać go z kontem Kaneo. Link wygasa po 24 godzinach.`,
+    cta: "Potwierdź adres e-mail",
+    fallback: "Przycisk nie działa? Wklej ten link do przeglądarki:",
+    noteTitle: "To nie Twoje konto?",
+    note: "Możesz zignorować tę wiadomość. Nic się nie zmieni, dopóki ktoś nie otworzy tego linku.",
+    footer: "Wiadomość o koncie Kaneo",
+  },
 } as const;
 
 const EmailVerificationEmail = ({
