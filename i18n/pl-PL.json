@@ -9,15 +9,15 @@
 			"deleting": "Usuwanie...",
 			"markAllRead": "Oznacz wszystko jako przeczytane",
 			"remove": "Usuń",
-			"reset": "Resetuj",
+			"reset": "Zresetuj",
 			"filter": "Filtruj"
 		},
 		"a11y": {
-			"toggleSidebar": "Przełącz pasek boczny"
+			"toggleSidebar": "Przełącz panel boczny"
 		},
 		"sidebar": {
-			"title": "Pasek boczny",
-			"mobileDescription": "Wyświetla mobilny pasek boczny."
+			"title": "Panel boczny",
+			"mobileDescription": "Wyświetla mobilny panel boczny."
 		},
 		"empty": {
 			"loading": "Wczytywanie..."
@@ -379,7 +379,7 @@
 				},
 				"invite": {
 					"title": "Zaproś swój zespół",
-					"description": "Kaneo działa najlepiej, gdy wszyscy są na pokładzie. Otwórz sekcję **Członkowie** na pasku bocznym, aby zaprosić osoby przez e-mail."
+					"description": "Kaneo działa najlepiej, gdy korzysta z niego cały zespół. Otwórz sekcję **Członkowie** w panelu bocznym, aby zaprosić osoby przez e-mail."
 				},
 				"integrations": {
 					"title": "Połącz GitHub, GitLab lub Gitea",
@@ -393,7 +393,7 @@
 			"progress": "Krok {{current}} z {{total}}",
 			"welcome": "Witaj, {{name}}",
 			"settingUp": "Konfiguracja: {{name}}",
-			"continue": "Dalej",
+			"continue": "Kontynuuj",
 			"signedInAs": "Zalogowano jako {{email}}",
 			"signOut": "Wyloguj się",
 			"workspace": {
@@ -519,7 +519,7 @@
 				"title": "Połącz urządzenie",
 				"description": "Wpisz kod wyświetlony w terminalu lub aplikacji, aby powiązać je z kontem Kaneo.",
 				"label": "Kod urządzenia",
-				"submit": "Dalej",
+				"submit": "Kontynuuj",
 				"noCode": "Nie masz jeszcze kodu? Najpierw rozpocznij logowanie w aplikacji.",
 				"codeRequired": "Wpisz kod wyświetlony na urządzeniu.",
 				"invalidCode": "Ten kod jest nieprawidłowy lub wygasł."
@@ -634,7 +634,7 @@
 			}
 		},
 		"settingsLayout": {
-			"toggleSidebar": "Przełącz pasek boczny",
+			"toggleSidebar": "Przełącz panel boczny",
 			"back": "Wstecz"
 		},
 		"userMenu": {
@@ -681,7 +681,7 @@
 				"logOut": "Wyloguj się",
 				"showDisplayOptions": "Opcje wyświetlania",
 				"dismissToasts": "Zamknij wszystkie powiadomienia",
-				"toggleSidebar": "Przełącz pasek boczny",
+				"toggleSidebar": "Przełącz panel boczny",
 				"goToHome": "Przejdź do strony głównej",
 				"goToInbox": "Przejdź do skrzynki odbiorczej",
 				"goToMyTasks": "Przejdź do moich zadań",
@@ -1040,7 +1040,7 @@
 			},
 			"memberRolePending": "{{role}} (oczekuje)",
 			"ariaCancelInvitation": "Anuluj zaproszenie",
-			"ariaInvitationActions": "Działania związane z zaproszeniem",
+			"ariaInvitationActions": "Akcje zaproszenia",
 			"ariaRemoveMember": "Usuń członka",
 			"removeDialogTitle": "Usunąć członka zespołu?",
 			"removeDialogDescription": "Czy na pewno chcesz usunąć {{name}} z obszaru roboczego? Tej operacji nie można cofnąć.",
@@ -1163,7 +1163,7 @@
 		"clearedDueDate": "· usunięcie terminu",
 		"comment": {
 			"added": "Dodano komentarz",
-			"attachFile": "Dołącz plik",
+			"attachFile": "Załącz plik",
 			"cannotBeEmpty": "Komentarz nie może być pusty",
 			"edit": "Edytuj komentarz",
 			"editor": {
@@ -1202,7 +1202,7 @@
 				"embedErrorYoutubeOnly": "Można osadzać tylko linki YouTube.",
 				"embedVideo": "Osadź wideo",
 				"failedToUploadFile": "Nie udało się przesłać pliku",
-				"fileAttached": "Dołączono plik",
+				"fileAttached": "Załączono plik",
 				"hintEsc": "Esc",
 				"hintTab": "Tabulator",
 				"imageUploaded": "Przesłano obraz",
@@ -1407,13 +1407,13 @@
 			"secretLabel": "Sekret podpisu",
 			"secretPlaceholder": "Współdzielony sekret",
 			"toast": {
-				"disabled": "Powiadomienia niestandardowego webhooka wstrzymane",
-				"enabled": "Powiadomienia niestandardowego webhooka włączone",
-				"removed": "Usunięto integrację niestandardowego webhooka",
-				"removeError": "Nie udało się usunąć integracji niestandardowego webhooka",
-				"saved": "Zapisano integrację niestandardowego webhooka",
-				"saveError": "Nie udało się zapisać integracji niestandardowego webhooka",
-				"updateError": "Nie udało się zaktualizować integracji niestandardowego webhooka"
+				"disabled": "Powiadomienia własnego webhooka wstrzymane",
+				"enabled": "Powiadomienia własnego webhooka włączone",
+				"removed": "Usunięto integrację własnego webhooka",
+				"removeError": "Nie udało się usunąć integracji własnego webhooka",
+				"saved": "Zapisano integrację własnego webhooka",
+				"saveError": "Nie udało się zapisać integracji własnego webhooka",
+				"updateError": "Nie udało się zaktualizować integracji własnego webhooka"
 			},
 			"validation": {
 				"webhookInvalid": "Nieprawidłowy adres URL webhooka",
@@ -1497,7 +1497,7 @@
 			"verifyNotInstalled": "Aplikacja GitHub Kaneo nie jest zainstalowana w tym repozytorium.",
 			"verifyReady": "Aplikacja GitHub Kaneo jest zainstalowana z wymaganymi uprawnieniami.",
 			"workflowHint": "Przenoś zadania po otwarciu lub scaleniu pull requestów w sekcji",
-			"workflowLink": "Obieg pracy"
+			"workflowLink": "Przepływ pracy"
 		},
 		"information": "Profil",
 		"informationPage": {
@@ -1608,15 +1608,15 @@
 			"webhookSecretHintConfigured": "Sekret podpisu jest już skonfigurowany ({{masked}}). Wpisz nowy, aby go zastąpić.",
 			"webhookSecretHintOptional": "Kaneo podpisuje treść żądania, gdy ustawiono sekret.",
 			"webhookSecretPlaceholder": "Opcjonalny współdzielony sekret",
-			"webhookTitle": "Niestandardowy webhook",
+			"webhookTitle": "Własny webhook",
 			"webhookUrlPlaceholder": "https://example.com/webhooks/kaneo",
 			"channelNotConnected": "Niepołączony",
 			"channelOff": "Wyłączony",
 			"channelsDescription": "Powiadomienia zawsze pojawiają się w Kaneo. Połącz kanał, aby otrzymywać je także gdzie indziej.",
 			"channelsTitle": "Kanały",
-			"configure": "Konfiguruj",
-			"configureChannel": "Konfiguruj {{channel}}",
-			"configureWorkspace": "Konfiguruj powiadomienia dla {{workspaceName}}",
+			"configure": "Skonfiguruj",
+			"configureChannel": "Skonfiguruj {{channel}}",
+			"configureWorkspace": "Skonfiguruj powiadomienia dla {{workspaceName}}",
 			"connect": "Połącz",
 			"connectChannel": "Połącz {{channel}}",
 			"disconnectDescription": "Powiadomienia przestaną trafiać do {{channel}}, a zapisane ustawienia zostaną usunięte.",
@@ -1690,8 +1690,8 @@
 			"selectLanguage": "Wybierz język",
 			"selectTheme": "Wybierz motyw",
 			"selectViewMode": "Wybierz tryb wyświetlania",
-			"sidebarDefault": "Pozostaw pasek boczny otwarty",
-			"sidebarDefaultDescription": "Zaczynaj z rozwiniętym paskiem bocznym.",
+			"sidebarDefault": "Pozostaw panel boczny otwarty",
+			"sidebarDefaultDescription": "Zaczynaj z rozwiniętym panelem bocznym.",
 			"subtitle": "Jak Kaneo wygląda i działa dla ciebie.",
 			"taskNumbers": "Numery zadań",
 			"theme": "Motyw",
@@ -1719,7 +1719,7 @@
 			"deleteProjectDescription": "Trwale usuwa projekt {{name}} i wszystkie jego zadania.",
 			"descriptionLabel": "Opis",
 			"descriptionPlaceholder": "Do czego służy ten projekt?",
-			"iconHint": "Wyświetlana na pasku bocznym i na listach projektów.",
+			"iconHint": "Wyświetlana w panelu bocznym i na listach projektów.",
 			"iconLabel": "Ikona",
 			"keyHint": "Rozpoczyna każdy identyfikator zadania, np. {{slug}}-123.",
 			"keyLabel": "Klucz",
@@ -1791,7 +1791,7 @@
 			"statusConnected": "Połączono",
 			"statusPaused": "Wstrzymano",
 			"connect": "Połącz",
-			"configure": "Konfiguruj",
+			"configure": "Skonfiguruj",
 			"done": "Gotowe",
 			"turnedOffByAdmin": "Wyłączone przez administratora"
 		},
@@ -1825,9 +1825,9 @@
 			"automationTitle": "Automatyzacje",
 			"columnsDescription": "Przeciągnij, aby zmienić kolejność. Zadania w kolumnie ukończonych liczą się jako ukończone.",
 			"columnsTitle": "Kolumny",
-			"pageTitle": "Ustawienia obiegu pracy",
+			"pageTitle": "Ustawienia przepływu pracy",
 			"subtitle": "Kolumny na tablicy i to, co przenosi między nimi zadania.",
-			"title": "Obieg pracy"
+			"title": "Przepływ pracy"
 		},
 		"repositoryBrowser": {
 			"description": "Repozytoria widoczne dla aplikacji GitHub Kaneo.",
@@ -2220,7 +2220,7 @@
 			}
 		},
 		"mattermostIntegration": {
-			"connect": "Połącz z Mattermost",
+			"connect": "Połącz Mattermost",
 			"toast": {
 				"disabled": "Wstrzymano powiadomienia Mattermost",
 				"enabled": "Włączono powiadomienia Mattermost",
@@ -2241,7 +2241,7 @@
 			"createError": "Nie udało się utworzyć pola niestandardowego.",
 			"createSuccess": "Utworzono pole niestandardowe.",
 			"creating": "Tworzenie...",
-			"defaultLabel": "Domyślna",
+			"defaultLabel": "Wartość domyślna",
 			"deleteError": "Nie udało się usunąć pola niestandardowego.",
 			"deleteSuccess": "Usunięto pole niestandardowe.",
 			"deleting": "Usuwanie...",
@@ -2540,7 +2540,7 @@
 			"tokenTypePrivate": "Token dostępu osobisty, projektu lub grupy",
 			"validation": {
 				"baseUrlInvalid": "Nieprawidłowy adres URL (np. https://gitlab.com)",
-				"baseUrlRequired": "Podstawowy adres URL GitLaba jest wymagany",
+				"baseUrlRequired": "Bazowy adres URL GitLaba jest wymagany",
 				"pathInvalid": "Nieprawidłowa ścieżka. Podaj pełną ścieżkę, np. grupa/projekt"
 			},
 			"webhookHint": "Dodaj ten webhook w ustawieniach projektu, aby zmiany wracały do Kaneo.",
@@ -2883,7 +2883,7 @@
 			},
 			"connect": {
 				"cancel": "Anuluj",
-				"continue": "Dalej",
+				"continue": "Kontynuuj",
 				"hideSecret": "Ukryj: {{field}}",
 				"sectionDescription": "Kaneo tylko odczytuje dane z {{source}}. Klucz jest używany wyłącznie do tego importu i nigdy nie jest zapisywany.",
 				"sectionTitle": "Połączenie",
@@ -3025,7 +3025,7 @@
 				},
 				"linear": {
 					"description": "Zespoły, zgłoszenia, etykiety, zgłoszenia podrzędne i komentarze. Wklej osobisty klucz API.",
-					"intro": "Każdy zespół Linear staje się projektem, a jego workflow — kolumnami."
+					"intro": "Każdy zespół Linear staje się projektem, a etapy jego przepływu pracy — kolumnami."
 				},
 				"plane": {
 					"description": "Projekty, elementy pracy, zgłoszenia podrzędne i komentarze. Cloud lub wersja self-hosted.",
@@ -3042,7 +3042,7 @@
 				},
 				"jira": {
 					"description": "Projekty, zgłoszenia, podzadania, powiązania i komentarze. Cloud lub Data Center.",
-					"intro": "Każdy projekt Jira staje się tutaj projektem, a jego workflow — kolumnami."
+					"intro": "Każdy projekt Jira staje się tutaj projektem, a etapy jego przepływu pracy — kolumnami."
 				}
 			},
 			"status": {
@@ -3729,7 +3729,7 @@
 			"updateSuccess": "Zaktualizowano zadań: {{count}}",
 			"clearSelection": "Wyczyść zaznaczenie",
 			"selectAll": "Zaznacz wszystko",
-			"moreActions": "Więcej działań",
+			"moreActions": "Więcej akcji",
 			"statusPlaceholder": "Zmień status…",
 			"priorityPlaceholder": "Ustaw priorytet…",
 			"assigneePlaceholder": "Przypisz do…",
@@ -3762,7 +3762,7 @@
 			"addDescription": "Dodaj opis...",
 			"editor": {
 				"ariaLabel": "Edytor opisu zadania",
-				"attachFile": "Dołącz plik",
+				"attachFile": "Załącz plik",
 				"autoDetect": "Wykryj automatycznie",
 				"checkbox": {
 					"markComplete": "Oznacz zadanie jako ukończone",
@@ -3852,7 +3852,7 @@
 				},
 				"upload": {
 					"failed": "Nie udało się przesłać pliku",
-					"fileSuccess": "Dołączono plik",
+					"fileSuccess": "Załączono plik",
 					"imageSuccess": "Przesłano obraz",
 					"loading": "Przesyłanie pliku..."
 				},
@@ -3949,7 +3949,7 @@
 			"projectLabel": "Projekt docelowy",
 			"projectPlaceholder": "Wybierz projekt",
 			"statusHintAdjust": "Wybierz status dla projektu docelowego.",
-			"statusHintKeep": "Obieg tego projektu obsługuje już bieżący status.",
+			"statusHintKeep": "Przepływ pracy tego projektu obsługuje już bieżący status.",
 			"statusLabel": "Status docelowy",
 			"success": "Przeniesiono zadanie",
 			"title": "Przenieś zadanie"
@@ -4564,7 +4564,7 @@
 			}
 		},
 		"invitations": {
-			"accepted": "Przyjęto zaproszenie",
+			"accepted": "Zaakceptowano zaproszenie",
 			"declined": "Odrzucono zaproszenie",
 			"title": "Zaproszenia",
 			"description": "Obszary robocze, do których cię zaproszono.",
@@ -4572,7 +4572,7 @@
 			"emptyMessage": "Zaproszenia pojawią się tutaj po zweryfikowaniu twojego adresu e-mail. Zawsze możesz dołączyć przez link z wiadomości.",
 			"invitedYou": "{{name}} zaprasza cię",
 			"decline": "Odrzuć",
-			"accept": "Przyjmij",
+			"accept": "Zaakceptuj",
 			"joinWithLink": "Dołącz przez link z zaproszeniem",
 			"linkPlaceholder": "Wklej link z wiadomości e-mail",
 			"join": "Dołącz"
@@ -4784,7 +4784,7 @@
 			"refresh": "Odśwież",
 			"planned": "Zaplanowane",
 			"archived": "Zarchiwizowane",
-			"reset": "Resetuj",
+			"reset": "Zresetuj",
 			"assignee": "Osoba przypisana",
 			"unassigned": "Nieprzypisane",
 			"priority": "Priorytet",
@@ -4879,7 +4879,7 @@
 		"home": {
 			"noWorkspace": {
 				"title": "Nie masz jeszcze obszaru roboczego",
-				"body": "Obszary robocze zawierają twoje projekty i zespół. Utwórz nowy lub przyjmij zaproszenie.",
+				"body": "Obszary robocze zawierają twoje projekty i zespół. Utwórz nowy lub zaakceptuj zaproszenie.",
 				"create": "Utwórz obszar roboczy",
 				"viewInvitations_one": "Pokaż {{count}} zaproszenie",
 				"viewInvitations_few": "Pokaż {{count}} zaproszenia",
