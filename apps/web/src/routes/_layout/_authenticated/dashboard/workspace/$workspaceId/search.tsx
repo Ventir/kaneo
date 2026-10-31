@@ -7,6 +7,7 @@ import PageTitle from "@/components/page-title";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import useGlobalSearch from "@/hooks/queries/search/use-global-search";
+import { getStatusDisplayLabel } from "@/lib/i18n/domain";
 import { getPriorityIcon } from "@/lib/priority";
 
 export const Route = createFileRoute(
@@ -164,7 +165,7 @@ function SearchComponent() {
 
                       {result.status && (
                         <span className="text-[10px] font-medium px-2 py-0.5 rounded border border-border bg-muted/55 text-muted-foreground flex-shrink-0">
-                          {result.status}
+                          {getStatusDisplayLabel(result.status)}
                         </span>
                       )}
                     </button>
