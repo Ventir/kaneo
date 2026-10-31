@@ -556,7 +556,7 @@
 		"mcp": {
 			"authorize": {
 				"title": "Autoryzuj klienta MCP",
-				"description": "Będzie mógł działać w twoim imieniu w każdym obszarze roboczym, do którego masz dostęp. Kontynuuj tylko wtedy, gdy to połączenie zostało zainicjowane przez ciebie.",
+				"description": "Będzie mógł działać w twoim imieniu w każdym obszarze roboczym, do którego masz dostęp. Kontynuuj tylko wtedy, gdy to ty nawiązujesz to połączenie.",
 				"client": "Klient",
 				"unknownClient": "Klient MCP",
 				"selfReported": "Podane przez klienta",
@@ -826,10 +826,10 @@
 			},
 			"task_comment": {
 				"title": "{{commenterName}} · komentarz do twojego zadania",
-				"content": "Nowy komentarz w {{taskTitle}}: {{commentPreview}}"
+				"content": "Nowy komentarz w zadaniu {{taskTitle}}: {{commentPreview}}"
 			},
 			"due_date_reminder": {
-				"title": "Termin zadania wkrótce",
+				"title": "Zbliża się termin zadania",
 				"content": "Termin zadania {{taskTitle}} upływa za {{leadTime}}"
 			},
 			"task_overdue": {
@@ -1353,8 +1353,8 @@
 		"discordIntegration": {
 			"connect": "Połącz Discord",
 			"toast": {
-				"disabled": "Powiadomienia Discord wstrzymane",
-				"enabled": "Powiadomienia Discord włączone",
+				"disabled": "Wstrzymano powiadomienia Discord",
+				"enabled": "Włączono powiadomienia Discord",
 				"removed": "Usunięto integrację z Discordem",
 				"removeError": "Nie udało się usunąć integracji z Discordem",
 				"saved": "Zapisano integrację z Discordem",
@@ -1407,8 +1407,8 @@
 			"secretLabel": "Sekret podpisu",
 			"secretPlaceholder": "Współdzielony sekret",
 			"toast": {
-				"disabled": "Powiadomienia własnego webhooka wstrzymane",
-				"enabled": "Powiadomienia własnego webhooka włączone",
+				"disabled": "Wstrzymano powiadomienia własnego webhooka",
+				"enabled": "Włączono powiadomienia własnego webhooka",
 				"removed": "Usunięto integrację własnego webhooka",
 				"removeError": "Nie udało się usunąć integracji własnego webhooka",
 				"saved": "Zapisano integrację własnego webhooka",
@@ -1458,7 +1458,7 @@
 			},
 			"webhookHint": "Dodaj ten webhook w ustawieniach repozytorium, aby zmiany wracały do Kaneo.",
 			"browseEmpty": "Ten token nie ma dostępu do żadnych repozytoriów.",
-			"chooseRepositoryDescription": "Wpisz właściciel/nazwa lub wybierz z listy.",
+			"chooseRepositoryDescription": "Wpisz w formacie właściciel/nazwa lub wybierz z listy.",
 			"webhookEvents": "Włącz zdarzenia push, pull request, zgłoszeń, komentarzy do zgłoszeń i create."
 		},
 		"githubIntegration": {
@@ -1468,7 +1468,7 @@
 			"importSectionHint": "Zaimportuj otwarte zgłoszenia z repozytorium jako zadania.",
 			"installGithubApp": "Zainstaluj aplikację GitHub",
 			"toast": {
-				"commentOnDisabled": "Komentarze z linkiem do zadania przy nowych zgłoszeniach zostały wyłączone",
+				"commentOnDisabled": "Komentarze z linkiem do zadania przy nowych zgłoszeniach są wyłączone",
 				"commentOnEnabled": "Kaneo doda komentarz z linkiem do zadania przy nowych zgłoszeniach",
 				"importError": "Nie udało się zaimportować zgłoszeń",
 				"installAppFirst": "Najpierw zainstaluj aplikację GitHub w tym repozytorium",
@@ -1851,8 +1851,8 @@
 		"slackIntegration": {
 			"connect": "Połącz Slack",
 			"toast": {
-				"disabled": "Powiadomienia Slack wstrzymane",
-				"enabled": "Powiadomienia Slack włączone",
+				"disabled": "Wstrzymano powiadomienia Slack",
+				"enabled": "Włączono powiadomienia Slack",
 				"removed": "Usunięto integrację ze Slackiem",
 				"removeError": "Nie udało się usunąć integracji ze Slackiem",
 				"saved": "Zapisano integrację ze Slackiem",
@@ -1902,8 +1902,8 @@
 			"threadIdLabel": "ID tematu",
 			"threadIdPlaceholder": "Dla tematów na forum",
 			"toast": {
-				"disabled": "Powiadomienia Telegram wstrzymane",
-				"enabled": "Powiadomienia Telegram włączone",
+				"disabled": "Wstrzymano powiadomienia Telegram",
+				"enabled": "Włączono powiadomienia Telegram",
 				"removed": "Usunięto integrację z Telegramem",
 				"removeError": "Nie udało się usunąć integracji z Telegramem",
 				"saved": "Zapisano integrację z Telegramem",
@@ -2693,7 +2693,7 @@
 			"openFailed": "Nie udało się otworzyć rozliczeń dla tego obszaru roboczego",
 			"checkoutSuccess": {
 				"title": "Dziękujemy za subskrypcję",
-				"description": "Płatność otrzymana. Plan poniżej zaktualizuje się po jej potwierdzeniu."
+				"description": "Otrzymano płatność. Plan poniżej zaktualizuje się po jej potwierdzeniu."
 			}
 		},
 		"syncRules": {
@@ -3640,7 +3640,7 @@
 			"duplicate": "Duplikuj"
 		},
 		"archive": {
-			"success": "Zarchiwizowano zadań: {{count}}",
+			"success": "Zarchiwizowano zadania: {{count}}",
 			"confirmTitle_one": "Zarchiwizować {{count}} ukończone zadanie?",
 			"confirmTitle_few": "Zarchiwizować {{count}} ukończone zadania?",
 			"confirmTitle_many": "Zarchiwizować {{count}} ukończonych zadań?",
@@ -3661,7 +3661,7 @@
 			"moveAll": "Przenieś wszystko",
 			"moveAllConfirm": "Przenieść wszystkie zaplanowane zadania ({{count}}) do „Do zrobienia”?",
 			"moveAllSuccess": "Przeniesiono zadania do „Do zrobienia”: {{count}}",
-			"moveAllTooltip": "Przenieś wszystkie zaplanowane do „Do zrobienia”",
+			"moveAllTooltip": "Przenieś wszystkie zaplanowane zadania do „Do zrobienia”",
 			"noTasksInSection": "Brak zadań: {{section}}",
 			"noTasksToMove": "Brak zaplanowanych zadań do przeniesienia",
 			"pageTitle": "Backlog: {{name}}",
@@ -3700,9 +3700,9 @@
 			"addLabelSuccess": "Dodano etykietę do zadań: {{count}}",
 			"archive": "Archiwizuj zadania",
 			"archiveError": "Nie udało się zarchiwizować zadań",
-			"archiveSuccess": "Zarchiwizowano zadań: {{count}}",
+			"archiveSuccess": "Zarchiwizowano zadania: {{count}}",
 			"assignError": "Nie udało się przypisać zadań",
-			"assignSuccess": "Przypisano zadań: {{count}}",
+			"assignSuccess": "Przypisano zadania: {{count}}",
 			"assignTo": "Przypisz do",
 			"changeStatus": "Zmień status",
 			"delete": "Usuń zadania",
@@ -3712,13 +3712,13 @@
 			"deleteConfirmTitle_other": "Usunąć {{count}} zadania?",
 			"deleteConfirmDescription": "Wybrane zadania i wszystkie ich dane zostaną trwale usunięte. Tej operacji nie można cofnąć.",
 			"deleteError": "Nie udało się usunąć zadań",
-			"deleteSuccess": "Usunięto zadań: {{count}}",
+			"deleteSuccess": "Usunięto zadania: {{count}}",
 			"moveToBacklog": "Przenieś do backlogu",
 			"moveToBacklogError": "Nie udało się przenieść zadań do backlogu",
-			"moveToBacklogSuccess": "Przeniesiono zadań do backlogu: {{count}}",
+			"moveToBacklogSuccess": "Przeniesiono zadania do backlogu: {{count}}",
 			"moveToBoard": "Przenieś na tablicę",
 			"moveToBoardError": "Nie udało się przenieść zadań na tablicę",
-			"moveToBoardSuccess": "Przeniesiono zadań na tablicę: {{count}}",
+			"moveToBoardSuccess": "Przeniesiono zadania na tablicę: {{count}}",
 			"noActionsFound": "Nie znaleziono akcji.",
 			"searchActions": "Szukaj akcji...",
 			"selectedCount": "Wybrano: {{count}}",
@@ -3726,7 +3726,7 @@
 			"updateDueDateError": "Nie udało się zaktualizować terminu",
 			"updateError": "Nie udało się zaktualizować zadań",
 			"updatePriorityError": "Nie udało się zaktualizować priorytetu",
-			"updateSuccess": "Zaktualizowano zadań: {{count}}",
+			"updateSuccess": "Zaktualizowano zadania: {{count}}",
 			"clearSelection": "Wyczyść zaznaczenie",
 			"selectAll": "Zaznacz wszystko",
 			"moreActions": "Więcej akcji",
@@ -4387,7 +4387,7 @@
 				"tryRelations": "Otwórz powiązane zadanie, aby prześledzić zależność.",
 				"mergeAction": "Zasymuluj scalenie",
 				"resetAction": "Zresetuj podgląd",
-				"mergedHint": "Pull request scalony. Zadanie przeniesione do Ukończone.",
+				"mergedHint": "Pull request scalony. Zadanie przeniesiono do kolumny „Ukończone”.",
 				"progress": "Ukończone podzadania: {{completed}} z {{total}}",
 				"backToTask": "Wróć do zadania strony głównej",
 				"releaseNotes": "Napisać informacje o wydaniu",
@@ -4741,7 +4741,7 @@
 		"composer": {
 			"reply": "Odpowiedz: {{name}}…",
 			"placeholder": "Dodaj komentarz…",
-			"mentionSomeone": "Wspomnij kogoś",
+			"mentionSomeone": "Wspomnij o kimś",
 			"attachImage": "Załącz obraz",
 			"sendComment": "Wyślij komentarz",
 			"mention": "Wspomnij",
@@ -4755,10 +4755,10 @@
 			"showTasks_many": "Pokaż {{count}} zadań",
 			"showTasks_other": "Pokaż {{count}} zadania",
 			"memberYou": "{{name}} (ty)",
-			"dueDateOverdue_one": "{{date}}, {{count}} d po terminie",
-			"dueDateOverdue_few": "{{date}}, {{count}} d po terminie",
-			"dueDateOverdue_many": "{{date}}, {{count}} d po terminie",
-			"dueDateOverdue_other": "{{date}}, {{count}} d po terminie",
+			"dueDateOverdue_one": "{{date}}, {{count}} d. po terminie",
+			"dueDateOverdue_few": "{{date}}, {{count}} d. po terminie",
+			"dueDateOverdue_many": "{{date}}, {{count}} d. po terminie",
+			"dueDateOverdue_other": "{{date}}, {{count}} d. po terminie",
 			"projects": "Projekty",
 			"back": "Wstecz",
 			"boardView": "Widok tablicy",
