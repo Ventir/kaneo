@@ -1634,7 +1634,7 @@
 			"eventTaskAssignmentsHint": "Gdy ktoś przypisze ci zadanie.",
 			"loadFailed": "Nie udało się wczytać ustawień powiadomień.",
 			"onlyInKaneo": "Tylko w Kaneo",
-			"optional": "Opcjonalne",
+			"optional": "Opcjonalnie",
 			"projectCount_few": "{{count}} projekty",
 			"projectCount_many": "{{count}} projektów",
 			"projectCount_one": "{{count}} projekt",
@@ -3215,7 +3215,7 @@
 				"taskStatusChanged": "Zmieni się status",
 				"taskTitleChanged": "Zmieni się tytuł"
 			},
-			"optional": "Opcjonalne",
+			"optional": "Opcjonalnie",
 			"postWhen": "Publikuj, gdy",
 			"retry": "Spróbuj ponownie",
 			"saveChanges": "Zapisz zmiany",
