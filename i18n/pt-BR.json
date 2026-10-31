@@ -13,7 +13,8 @@
 			"filter": "Filtrar"
 		},
 		"a11y": {
-			"toggleSidebar": "Alternar barra lateral"
+			"toggleSidebar": "Alternar barra lateral",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Barra lateral",
@@ -163,6 +164,10 @@
 				"apply": "Aplicar link",
 				"remove": "Remover link"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1990,7 +1995,8 @@
 			"checkoutSuccess": {
 				"title": "Obrigado pela assinatura",
 				"description": "Pagamento recebido. O plano abaixo será atualizado assim que for confirmado."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

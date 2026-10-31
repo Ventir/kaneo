@@ -13,7 +13,8 @@
 			"filter": "フィルター"
 		},
 		"a11y": {
-			"toggleSidebar": "サイドバーを切り替え"
+			"toggleSidebar": "サイドバーを切り替え",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "サイドバー",
@@ -163,6 +164,10 @@
 				"apply": "リンクを適用",
 				"remove": "リンクを削除"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1964,7 +1969,8 @@
 			"checkoutSuccess": {
 				"title": "ご登録ありがとうございます",
 				"description": "お支払いを受け付けました。確認され次第、下のプランが更新されます。"
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

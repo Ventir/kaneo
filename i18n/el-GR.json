@@ -13,7 +13,8 @@
 			"filter": "Φίλτρο"
 		},
 		"a11y": {
-			"toggleSidebar": "Εναλλαγή πλαϊνής μπάρας"
+			"toggleSidebar": "Εναλλαγή πλαϊνής μπάρας",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Πλαϊνή μπάρα",
@@ -163,6 +164,10 @@
 				"apply": "Εφαρμογή συνδέσμου",
 				"remove": "Αφαίρεση συνδέσμου"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1977,7 +1982,8 @@
 			"checkoutSuccess": {
 				"title": "Ευχαριστούμε για τη συνδρομή σας",
 				"description": "Η πληρωμή ελήφθη. Το πρόγραμμα παρακάτω θα ενημερωθεί μόλις επιβεβαιωθεί."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

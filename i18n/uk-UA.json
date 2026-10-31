@@ -13,7 +13,8 @@
 			"filter": "Фільтр"
 		},
 		"a11y": {
-			"toggleSidebar": "Перемикач бічної панелі"
+			"toggleSidebar": "Перемикач бічної панелі",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Бічна панель",
@@ -163,6 +164,10 @@
 				"apply": "Застосувати посилання",
 				"remove": "Видалити посилання"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -2003,7 +2008,8 @@
 			"checkoutSuccess": {
 				"title": "Дякуємо за підписку",
 				"description": "Платіж отримано. План нижче оновиться, щойно його буде підтверджено."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

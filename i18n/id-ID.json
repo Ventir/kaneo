@@ -13,7 +13,8 @@
 			"filter": "Filter"
 		},
 		"a11y": {
-			"toggleSidebar": "Tampilkan/sembunyikan panel samping"
+			"toggleSidebar": "Tampilkan/sembunyikan panel samping",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Bilah sisi",
@@ -163,6 +164,10 @@
 				"apply": "Terapkan tautan",
 				"remove": "Hapus tautan"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1964,7 +1969,8 @@
 			"checkoutSuccess": {
 				"title": "Terima kasih telah berlangganan",
 				"description": "Pembayaran diterima. Paket di bawah akan diperbarui setelah dikonfirmasi."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

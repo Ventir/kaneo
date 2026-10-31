@@ -13,7 +13,8 @@
 			"filter": "Filtruj"
 		},
 		"a11y": {
-			"toggleSidebar": "Przełącz panel boczny"
+			"toggleSidebar": "Przełącz panel boczny",
+			"toggleTheme": "Przełącz motyw"
 		},
 		"sidebar": {
 			"title": "Panel boczny",
@@ -163,6 +164,10 @@
 				"apply": "Zastosuj link",
 				"remove": "Usuń link"
 			}
+		},
+		"demo": {
+			"notice": "To jest środowisko demonstracyjne. Wszystkie dane są automatycznie usuwane co godzinę.",
+			"deployOwn": "Wdróż własną instancję"
 		}
 	},
 	"auth": {
@@ -2694,7 +2699,8 @@
 			"checkoutSuccess": {
 				"title": "Dziękujemy za subskrypcję",
 				"description": "Otrzymano płatność. Plan poniżej zaktualizuje się po jej potwierdzeniu."
-			}
+			},
+			"checkoutFailed": "Nie udało się rozpocząć płatności"
 		},
 		"syncRules": {
 			"addLabel": "Dodaj etykietę",

@@ -13,7 +13,8 @@
 			"filter": "Filtrele"
 		},
 		"a11y": {
-			"toggleSidebar": "Kenar çubuğunu aç/kapat"
+			"toggleSidebar": "Kenar çubuğunu aç/kapat",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Kenar çubuğu",
@@ -163,6 +164,10 @@
 				"apply": "Bağlantıyı uygula",
 				"remove": "Bağlantıyı kaldır"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1977,7 +1982,8 @@
 			"checkoutSuccess": {
 				"title": "Abone olduğunuz için teşekkürler",
 				"description": "Ödeme alındı. Aşağıdaki plan onaylandığında güncellenecek."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

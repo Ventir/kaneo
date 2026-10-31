@@ -13,7 +13,8 @@
 			"filter": "Filtrer"
 		},
 		"a11y": {
-			"toggleSidebar": "Basculer la barre latérale"
+			"toggleSidebar": "Basculer la barre latérale",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Barre latérale",
@@ -163,6 +164,10 @@
 				"apply": "Appliquer le lien",
 				"remove": "Supprimer le lien"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1990,7 +1995,8 @@
 			"checkoutSuccess": {
 				"title": "Merci pour votre abonnement",
 				"description": "Paiement reçu. L'offre ci-dessous sera mise à jour dès qu'il sera confirmé."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Ajouter un label",

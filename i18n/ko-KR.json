@@ -13,7 +13,8 @@
 			"filter": "필터"
 		},
 		"a11y": {
-			"toggleSidebar": "사이드바 토글"
+			"toggleSidebar": "사이드바 토글",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "사이드바",
@@ -163,6 +164,10 @@
 				"apply": "링크 적용",
 				"remove": "링크 제거"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1964,7 +1969,8 @@
 			"checkoutSuccess": {
 				"title": "구독해 주셔서 감사합니다",
 				"description": "결제가 접수되었습니다. 확인되는 대로 아래 플랜이 업데이트됩니다."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

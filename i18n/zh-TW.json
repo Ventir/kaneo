@@ -13,7 +13,8 @@
 			"filter": "篩選"
 		},
 		"a11y": {
-			"toggleSidebar": "切換側邊欄"
+			"toggleSidebar": "切換側邊欄",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "側邊欄",
@@ -163,6 +164,10 @@
 				"apply": "套用連結",
 				"remove": "移除連結"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1963,7 +1968,8 @@
 			"checkoutSuccess": {
 				"title": "感謝訂閱",
 				"description": "已收到付款。確認後，下方的方案會隨即更新。"
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"advancedSettings": "進階設定",
 		"advancedSettingsDescription": "顯示更多控制項，例如整合同步規則。僅套用於此瀏覽器。",

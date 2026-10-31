@@ -13,7 +13,8 @@
 			"filter": "筛选"
 		},
 		"a11y": {
-			"toggleSidebar": "切换侧边栏"
+			"toggleSidebar": "切换侧边栏",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "侧边栏",
@@ -163,6 +164,10 @@
 				"apply": "应用链接",
 				"remove": "移除链接"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1964,7 +1969,8 @@
 			"checkoutSuccess": {
 				"title": "感谢订阅",
 				"description": "已收到付款。确认后，下方的方案会随即更新。"
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "添加标签",

@@ -13,7 +13,8 @@
 			"filter": "Süzgəc"
 		},
 		"a11y": {
-			"toggleSidebar": "Yan paneli aç/bağla"
+			"toggleSidebar": "Yan paneli aç/bağla",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Yan panel",
@@ -163,6 +164,10 @@
 				"apply": "Keçidi tətbiq et",
 				"remove": "Keçidi sil"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1977,7 +1982,8 @@
 			"checkoutSuccess": {
 				"title": "Abunə olduğunuz üçün təşəkkürlər",
 				"description": "Ödəniş alındı. Aşağıdakı plan təsdiqləndikdən sonra yenilənəcək."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

@@ -13,7 +13,8 @@
 			"filter": "Filter"
 		},
 		"a11y": {
-			"toggleSidebar": "Toggle sidebar"
+			"toggleSidebar": "Toggle sidebar",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Sidebar",
@@ -163,6 +164,10 @@
 				"apply": "Apply link",
 				"remove": "Remove link"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -2507,7 +2512,8 @@
 			"checkoutSuccess": {
 				"title": "Thanks for subscribing",
 				"description": "Payment received. The plan below updates once it's confirmed."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"chatIntegrations": {
 			"optional": "Optional",

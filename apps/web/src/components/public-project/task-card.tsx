@@ -1,5 +1,6 @@
 import { Calendar, CalendarClock, CalendarX } from "lucide-react";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { TaskProgressBadges } from "@/components/task/task-progress-badges";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
@@ -33,6 +34,7 @@ export function PublicTaskCard({
   isCompleted,
   onTaskClick,
 }: PublicTaskCardProps) {
+  const { t } = useTranslation();
   const taskIsCompleted = isCompleted ?? isTaskCompleted(task.status);
   const labels = task.labels || [];
   const externalLinks = task.externalLinks || [];
@@ -75,7 +77,9 @@ export function PublicTaskCard({
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
         onClick={() => onTaskClick(task)}
-        aria-label={`View details for task ${task.title}`}
+        aria-label={t("publicProject:taskCard.viewDetailsAria", {
+          title: task.title,
+        })}
       />
       <div className="pointer-events-none">
         <div className="text-[10px] font-mono text-muted-foreground mb-2">

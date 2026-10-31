@@ -13,7 +13,8 @@
 			"filter": "Фильтр"
 		},
 		"a11y": {
-			"toggleSidebar": "Переключить боковую панель"
+			"toggleSidebar": "Переключить боковую панель",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Боковая панель",
@@ -163,6 +164,10 @@
 				"apply": "Применить ссылку",
 				"remove": "Удалить ссылку"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -2011,7 +2016,8 @@
 			"checkoutSuccess": {
 				"title": "Спасибо за подписку",
 				"description": "Платёж получен. План ниже обновится, как только он будет подтверждён."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

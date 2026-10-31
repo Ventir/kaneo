@@ -13,7 +13,8 @@
 			"filter": "Lọc"
 		},
 		"a11y": {
-			"toggleSidebar": "Bật/tắt thanh bên"
+			"toggleSidebar": "Bật/tắt thanh bên",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Thanh bên",
@@ -163,6 +164,10 @@
 				"apply": "Áp dụng liên kết",
 				"remove": "Xóa liên kết"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1964,7 +1969,8 @@
 			"checkoutSuccess": {
 				"title": "Cảm ơn bạn đã đăng ký",
 				"description": "Đã nhận thanh toán. Gói bên dưới sẽ được cập nhật ngay khi thanh toán được xác nhận."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

@@ -71,7 +71,7 @@ export default function TaskLayout({
                     </TooltipTrigger>
                     <TooltipContent>
                       <p className="flex items-center gap-2 text-[10px]">
-                        Toggle sidebar
+                        {t("common:a11y.toggleSidebar")}
                         <ShortcutKeys id="toggleSidebar" />
                       </p>
                     </TooltipContent>

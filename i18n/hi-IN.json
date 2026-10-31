@@ -13,7 +13,8 @@
 			"filter": "फ़िल्टर"
 		},
 		"a11y": {
-			"toggleSidebar": "साइडबार टॉगल करें"
+			"toggleSidebar": "साइडबार टॉगल करें",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "साइडबार",
@@ -163,6 +164,10 @@
 				"apply": "लिंक लागू करें",
 				"remove": "लिंक हटाएँ"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1977,7 +1982,8 @@
 			"checkoutSuccess": {
 				"title": "सदस्यता लेने के लिए धन्यवाद",
 				"description": "भुगतान प्राप्त हुआ। पुष्टि होते ही नीचे दी गई योजना अपडेट हो जाएगी।"
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

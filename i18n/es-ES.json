@@ -13,7 +13,8 @@
 			"filter": "Filtrar"
 		},
 		"a11y": {
-			"toggleSidebar": "Mostrar barra lateral"
+			"toggleSidebar": "Mostrar barra lateral",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Barra lateral",
@@ -163,6 +164,10 @@
 				"apply": "Aplicar enlace",
 				"remove": "Quitar enlace"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1990,7 +1995,8 @@
 			"checkoutSuccess": {
 				"title": "Gracias por suscribirte",
 				"description": "Pago recibido. El plan de abajo se actualizará cuando se confirme."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

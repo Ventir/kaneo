@@ -66,9 +66,12 @@
 					"properties": {
 						"toggleSidebar": {
 							"type": "string"
+						},
+						"toggleTheme": {
+							"type": "string"
 						}
 					},
-					"required": ["toggleSidebar"]
+					"required": ["toggleSidebar", "toggleTheme"]
 				},
 				"sidebar": {
 					"type": "object",
@@ -630,6 +633,19 @@
 						}
 					},
 					"required": ["createProject", "createWorkspace", "createTask"]
+				},
+				"demo": {
+					"type": "object",
+					"additionalProperties": false,
+					"properties": {
+						"notice": {
+							"type": "string"
+						},
+						"deployOwn": {
+							"type": "string"
+						}
+					},
+					"required": ["notice", "deployOwn"]
 				}
 			},
 			"required": [
@@ -645,7 +661,8 @@
 				"people",
 				"error",
 				"formats",
-				"modals"
+				"modals",
+				"demo"
 			]
 		},
 		"auth": {
@@ -10004,6 +10021,9 @@
 						},
 						"openFailed": {
 							"type": "string"
+						},
+						"checkoutFailed": {
+							"type": "string"
 						}
 					},
 					"required": [
@@ -10032,7 +10052,8 @@
 						"status",
 						"trialCard",
 						"expiredCallout",
-						"openFailed"
+						"openFailed",
+						"checkoutFailed"
 					]
 				}
 			},

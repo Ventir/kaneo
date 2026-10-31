@@ -13,7 +13,8 @@
 			"filter": "Filteren"
 		},
 		"a11y": {
-			"toggleSidebar": "Zijbalk in-/uitschakelen"
+			"toggleSidebar": "Zijbalk in-/uitschakelen",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Zijbalk",
@@ -163,6 +164,10 @@
 				"apply": "Link toepassen",
 				"remove": "Link verwijderen"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1977,7 +1982,8 @@
 			"checkoutSuccess": {
 				"title": "Bedankt voor je abonnement",
 				"description": "Betaling ontvangen. Het abonnement hieronder wordt bijgewerkt zodra die is bevestigd."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",

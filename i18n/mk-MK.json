@@ -13,7 +13,8 @@
 			"filter": "Филтрирај"
 		},
 		"a11y": {
-			"toggleSidebar": "Вклучи/исклучи странична лента"
+			"toggleSidebar": "Вклучи/исклучи странична лента",
+			"toggleTheme": "Toggle theme"
 		},
 		"sidebar": {
 			"title": "Странична лента",
@@ -163,6 +164,10 @@
 				"apply": "Примени врска",
 				"remove": "Отстрани врска"
 			}
+		},
+		"demo": {
+			"notice": "This is a demo environment. All data will be automatically purged every hour.",
+			"deployOwn": "Deploy your own"
 		}
 	},
 	"auth": {
@@ -1977,7 +1982,8 @@
 			"checkoutSuccess": {
 				"title": "Ви благодариме за претплатата",
 				"description": "Плаќањето е примено. Планот подолу ќе се ажурира штом биде потврдено."
-			}
+			},
+			"checkoutFailed": "Couldn't start checkout"
 		},
 		"syncRules": {
 			"addLabel": "Add label",
