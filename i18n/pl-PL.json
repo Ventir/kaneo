@@ -3567,7 +3567,7 @@
 			"userCount_many": "{{count}} użytkowników",
 			"userCount_one": "{{count}} użytkownik",
 			"userCount_other": "{{count}} użytkownika",
-			"viewUsers": "Zobacz użytkowników"
+			"viewUsers": "Użytkownicy"
 		},
 		"adminSettings": {
 			"defaultRole": "Domyślna rola nowych użytkowników",
