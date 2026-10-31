@@ -193,7 +193,7 @@
 			"heading": "Zaloguj się do Kaneo",
 			"submitPassword": "Zaloguj się",
 			"invitation": {
-				"title": "{{inviterName}} zaprasza cię do {{workspaceName}}",
+				"title": "{{inviterName}} zaprasza cię do obszaru {{workspaceName}}",
 				"fallbackTitle": "Masz zaproszenie",
 				"description": "Zaloguj się adresem e-mail, na który przyszło zaproszenie. Zaraz potem dołączysz do obszaru roboczego."
 			},
@@ -300,7 +300,7 @@
 			"pageTitleAccept": "Przyjmij zaproszenie",
 			"pageTitleError": "Błąd zaproszenia",
 			"pageTitleInvalid": "Nieprawidłowe zaproszenie",
-			"joinWorkspace": "Dołącz do {{workspaceName}}",
+			"joinWorkspace": "Dołącz do obszaru {{workspaceName}}",
 			"createAccount": "Utwórz konto",
 			"signIn": "Zaloguj się",
 			"toast": {
@@ -322,7 +322,7 @@
 			},
 			"expired": {
 				"title": "To zaproszenie wygasło",
-				"description": "Poproś osobę zapraszającą ({{inviterName}}) o nowe zaproszenie do {{workspaceName}}."
+				"description": "Poproś osobę zapraszającą ({{inviterName}}) o nowe zaproszenie do obszaru {{workspaceName}}."
 			},
 			"invalid": {
 				"title": "To zaproszenie jest już nieważne",
@@ -417,7 +417,7 @@
 			},
 			"invite": {
 				"title": "Zaproś swój zespół",
-				"description": "Otrzymają e-mail z zaproszeniem do {{name}}. Pomiń ten krok, jeśli wolisz najpierw się rozejrzeć.",
+				"description": "Otrzymają e-mail z zaproszeniem do obszaru {{name}}. Pomiń ten krok, jeśli wolisz najpierw się rozejrzeć.",
 				"label": "Adresy e-mail członków zespołu",
 				"send_few": "Wyślij {{count}} zaproszenia",
 				"send_many": "Wyślij {{count}} zaproszeń",
@@ -458,7 +458,7 @@
 				"invitationsValue_many": "Wysłano do {{count}} osób",
 				"invitationsValue_one": "Wysłano do {{count}} osoby",
 				"invitationsValue_other": "Wysłano do {{count}} osoby",
-				"open": "Otwórz {{name}}"
+				"open": "Otwórz obszar {{name}}"
 			},
 			"preview": {
 				"live": "Podgląd na żywo: {{name}}",
@@ -1123,9 +1123,9 @@
 	},
 	"invitations": {
 		"email": {
-			"subject": "{{inviterName}} zaprasza Cię do {{workspaceName}} w {{instanceName}}",
-			"preview": "Masz zaproszenie do {{workspaceName}} w Kaneo",
-			"title": "Dołącz do {{workspaceName}}",
+			"subject": "{{inviterName}} zaprasza Cię do obszaru {{workspaceName}} w {{instanceName}}",
+			"preview": "Masz zaproszenie do obszaru {{workspaceName}} w Kaneo",
+			"title": "Dołącz do obszaru {{workspaceName}}",
 			"subtitle": "{{inviterName}} ({{inviterEmail}}) zaprasza Cię do współpracy w Kaneo.",
 			"cta": "Przyjmij zaproszenie",
 			"sameEmail": "Możesz przyjąć zaproszenie przy użyciu tego samego adresu e-mail, na który wysłano tę wiadomość.",
@@ -1597,10 +1597,10 @@
 			"toastNtfySaveFailed": "Nie udało się zapisać ustawień ntfy",
 			"toastPreferencesSaved": "Zapisano preferencje powiadomień",
 			"toastPreferencesSaveFailed": "Nie udało się zapisać preferencji powiadomień",
-			"toastRuleRemoved": "Usunięto regułę powiadomień dla {{workspaceName}}",
+			"toastRuleRemoved": "Usunięto regułę powiadomień dla obszaru {{workspaceName}}",
 			"toastRuleRemovedGeneric": "Usunięto regułę powiadomień obszaru roboczego",
 			"toastRuleRemoveFailed": "Nie udało się usunąć reguły powiadomień obszaru roboczego",
-			"toastRuleSaved": "Zapisano regułę powiadomień dla {{workspaceName}}",
+			"toastRuleSaved": "Zapisano regułę powiadomień dla obszaru {{workspaceName}}",
 			"toastRuleSavedGeneric": "Zapisano regułę powiadomień obszaru roboczego",
 			"toastRuleSaveFailed": "Nie udało się zapisać reguły powiadomień obszaru roboczego",
 			"toastWebhookDisconnected": "Odłączono webhook",
@@ -1621,7 +1621,7 @@
 			"channelsTitle": "Kanały",
 			"configure": "Skonfiguruj",
 			"configureChannel": "Skonfiguruj {{channel}}",
-			"configureWorkspace": "Skonfiguruj powiadomienia dla {{workspaceName}}",
+			"configureWorkspace": "Skonfiguruj powiadomienia dla obszaru {{workspaceName}}",
 			"connect": "Połącz",
 			"connectChannel": "Połącz {{channel}}",
 			"disconnectDescription": "Powiadomienia przestaną trafiać do {{channel}}, a zapisane ustawienia zostaną usunięte.",
@@ -1659,14 +1659,14 @@
 			"sendingDescription": "Wyłącz, aby wstrzymać ten kanał i zachować jego ustawienia.",
 			"sendingLabel": "Wysyłanie",
 			"setUp": "Skonfiguruj",
-			"setUpWorkspace": "Skonfiguruj powiadomienia dla {{workspaceName}}",
+			"setUpWorkspace": "Skonfiguruj powiadomienia dla obszaru {{workspaceName}}",
 			"someProjects": "Tylko niektóre",
 			"statusOn": "Włączone",
 			"statusSending": "Wysyłanie",
 			"stopping": "Zatrzymywanie...",
 			"stopSending": "Zatrzymaj wysyłanie",
 			"stopSendingDescription": "Powiadomienia z tego obszaru roboczego będą widoczne tylko w Kaneo.",
-			"stopSendingTitle": "Zatrzymać wysyłanie z {{workspaceName}}?",
+			"stopSendingTitle": "Zatrzymać wysyłanie z obszaru {{workspaceName}}?",
 			"workspacesDescription": "Wybierz, które obszary robocze i projekty mogą korzystać z twoich kanałów.",
 			"workspacesTitle": "Obszary robocze"
 		},
@@ -1811,7 +1811,7 @@
 			"publicAccessHint": "Każdy, kto ma link, może wyświetlać tablicę i jej zadania, ale nie może niczego zmieniać.",
 			"publicUrl": "Publiczny adres URL",
 			"sectionTitle": "Dostęp",
-			"subtitle": "Wybierz, kto spoza {{workspace}} może widzieć {{project}}.",
+			"subtitle": "Wybierz, kto spoza obszaru {{workspace}} może widzieć projekt {{project}}.",
 			"title": "Widoczność",
 			"toastUpdated": "Zaktualizowano widoczność",
 			"toastUpdateError": "Nie udało się zaktualizować widoczności",
@@ -2012,7 +2012,7 @@
 			"rowActions": "Akcje: {{name}}",
 			"sectionDescription": "Zmiana nazwy lub koloru etykiety aktualizuje każde zadanie, które jej używa.",
 			"sectionTitle": "Etykiety obszaru roboczego",
-			"subtitleWithWorkspace": "Etykiety są wspólne dla wszystkich projektów w {{workspaceName}}."
+			"subtitleWithWorkspace": "Etykiety są wspólne dla wszystkich projektów w obszarze {{workspaceName}}."
 		},
 		"workspaceRoles": {
 			"allChangesSaved": "Wszystkie zmiany zostały zapisane",
@@ -2206,7 +2206,7 @@
 			"saveChanges": "Zapisz zmiany",
 			"sectionSubtitle": "Edytuj role domyślne lub dodaj własną. Członkowie zachowują przypisaną nazwę roli podczas edycji.",
 			"sectionTitle": "Role obszaru roboczego",
-			"subtitle": "Określ, jakie działania członkowie mogą wykonywać w {{workspaceName}}.",
+			"subtitle": "Określ, jakie działania członkowie mogą wykonywać w obszarze {{workspaceName}}.",
 			"thisWorkspace": "ten obszar roboczy",
 			"title": "Role",
 			"toast": {
@@ -2274,7 +2274,7 @@
 			"deleteConfirm": "Usuń pole",
 			"deleteDescription": "Pole i jego wartość zostaną usunięte ze wszystkich zadań. Tej operacji nie można cofnąć.",
 			"deleteTitle": "Usunąć „{{name}}”?",
-			"dialogDescription": "Każde zadanie w {{project}} otrzyma to pole.",
+			"dialogDescription": "Każde zadanie w projekcie {{project}} otrzyma to pole.",
 			"dialogDescriptionFallback": "Każde zadanie w tym projekcie otrzyma to pole.",
 			"dragAria": "Zmień kolejność: {{name}}",
 			"dragOptionAria": "Zmień kolejność: {{option}}",
@@ -2521,7 +2521,7 @@
 			"commentTaskLinkHint": "Aby osoby w GitLabie mogły przejść do zadania.",
 			"commentTaskLinkTitle": "Dodawaj komentarz z linkiem Kaneo do zgłoszeń otwartych w GitLabie",
 			"importSectionHint": "Zaimportuj otwarte zgłoszenia i merge requesty jako zadania.",
-			"openInGitlab": "Otwórz {{project}} w GitLabie",
+			"openInGitlab": "Otwórz projekt {{project}} w GitLabie",
 			"projectPathLabel": "Ścieżka projektu",
 			"searchProjects": "Szukaj projektów",
 			"toast": {
@@ -2671,7 +2671,7 @@
 				"scheduled_cancel": "Wkrótce wygaśnie",
 				"trialing": "Okres próbny"
 			},
-			"subtitle": "Twój plan dla {{workspace}}.",
+			"subtitle": "Twój plan dla obszaru {{workspace}}.",
 			"trial": {
 				"activeTitle": "Darmowy okres próbny",
 				"expiredDescription": "Wybierz plan poniżej, aby dalej tworzyć i edytować. Do tego czasu twoje dane są bezpieczne i można je wyeksportować.",
@@ -2993,7 +2993,7 @@
 				"nothingImported": "Nic nie zaimportowano",
 				"notImported": "Nie zaimportowano",
 				"open": "Otwórz",
-				"openProject": "Otwórz {{name}}",
+				"openProject": "Otwórz projekt {{name}}",
 				"queued": "W kolejce",
 				"started": "Rozpoczęto {{time}}",
 				"starting": "Uruchamianie",
@@ -3268,7 +3268,7 @@
 			"fieldsTitle": "Pola",
 			"newField": "Nowe pole",
 			"pageTitle": "Pola niestandardowe",
-			"subtitle": "Dodatkowe informacje, które może śledzić każde zadanie w {{project}}, np. rozmiar lub klient.",
+			"subtitle": "Dodatkowe informacje, które może śledzić każde zadanie w projekcie {{project}}, np. rozmiar lub klient.",
 			"subtitleFallback": "Dodatkowe informacje, które może śledzić każde zadanie w tym projekcie, np. rozmiar lub klient.",
 			"title": "Pola niestandardowe"
 		},
@@ -4933,7 +4933,7 @@
 		},
 		"activity": {
 			"title": "Aktywność",
-			"subtitle": "Wszystko, co dzieje się w {{workspace}}",
+			"subtitle": "Wszystko, co dzieje się w obszarze {{workspace}}",
 			"empty": "Brak ostatniej aktywności",
 			"someone": "Ktoś",
 			"commentedOn": "· komentarz do {{target}}"
@@ -5230,7 +5230,7 @@
 		},
 		"workspaceSettings": {
 			"title": "Obszar roboczy",
-			"description": "Ustawienia dla wszystkich w {{name}}.",
+			"description": "Ustawienia dla wszystkich w obszarze {{name}}.",
 			"thisWorkspace": "tym obszarze roboczym",
 			"general": {
 				"title": "Ogólne",
@@ -5255,7 +5255,7 @@
 			"confirm": {
 				"deleteTitle": "Usunąć obszar roboczy?",
 				"leaveTitle": "Opuścić obszar roboczy?",
-				"deleteMessage": "Wszystkie projekty, zadania i komentarze w {{name}} zostaną trwale usunięte.",
+				"deleteMessage": "Wszystkie projekty, zadania i komentarze w obszarze {{name}} zostaną trwale usunięte.",
 				"leaveMessage": "Stracisz dostęp, dopóki ktoś ponownie cię nie zaprosi."
 			},
 			"toast": {
@@ -5266,10 +5266,10 @@
 		},
 		"members": {
 			"title": "Członkowie",
-			"description_one": "{{count}} osoba w {{name}}",
-			"description_few": "{{count}} osoby w {{name}}",
-			"description_many": "{{count}} osób w {{name}}",
-			"description_other": "{{count}} osoby w {{name}}",
+			"description_one": "{{count}} osoba w obszarze {{name}}",
+			"description_few": "{{count}} osoby w obszarze {{name}}",
+			"description_many": "{{count}} osób w obszarze {{name}}",
+			"description_other": "{{count}} osoby w obszarze {{name}}",
 			"thisWorkspace": "tym obszarze roboczym",
 			"invite": "Zaproś",
 			"pending": {
@@ -5292,7 +5292,7 @@
 			},
 			"remove": {
 				"title": "Usunąć członka?",
-				"message": "{{name}} straci dostęp do {{workspace}}.",
+				"message": "{{name}} straci dostęp do obszaru {{workspace}}.",
 				"they": "Ta osoba",
 				"confirm": "Usuń"
 			},
@@ -5303,7 +5303,7 @@
 			},
 			"inviteForm": {
 				"title": "Zaproś członka",
-				"intro": "Zaproszona osoba otrzyma e-mail z linkiem do dołączenia do {{workspace}}.",
+				"intro": "Zaproszona osoba otrzyma e-mail z linkiem do dołączenia do obszaru {{workspace}}.",
 				"email": "E-mail",
 				"role": "Rola",
 				"send": "Wyślij zaproszenie"
