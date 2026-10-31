@@ -7,7 +7,7 @@
 			"clearAll": "Wyczyść wszystko",
 			"delete": "Usuń",
 			"deleting": "Usuwanie...",
-			"markAllRead": "Oznacz wszystko jako przeczytane",
+			"markAllRead": "Oznacz wszystkie jako przeczytane",
 			"remove": "Usuń",
 			"reset": "Zresetuj",
 			"filter": "Filtruj"
@@ -131,7 +131,7 @@
 				"noLabelsFound": "Nie znaleziono etykiet",
 				"createLabel": "Utwórz „{{name}}”",
 				"chooseColor": "Wybierz kolor",
-				"labelCreated": "Etykieta została utworzona",
+				"labelCreated": "Utworzono etykietę",
 				"labelCreateError": "Nie udało się utworzyć etykiety",
 				"createMore": "Utwórz kolejne",
 				"createButton": "Utwórz zadanie",
@@ -232,10 +232,10 @@
 			"hidePassword": "Ukryj hasło",
 			"name": "Imię i nazwisko",
 			"namePlaceholder": "Anna Kowalska",
-			"invalidEmail": "Adres e-mail jest niepełny. Poprawny format to np. imie@firma.pl.",
-			"nameRequired": "Imię i nazwisko jest wymagane.",
-			"passwordRequired": "Hasło jest wymagane.",
-			"passwordTooShort": "Hasło musi mieć co najmniej 8 znaków.",
+			"invalidEmail": "Podaj pełny adres e-mail, np. imie@firma.pl.",
+			"nameRequired": "Podaj imię i nazwisko.",
+			"passwordRequired": "Podaj hasło.",
+			"passwordTooShort": "Użyj co najmniej 8 znaków.",
 			"disposableEmail": "Użyj stałego adresu e-mail. Na adresy jednorazowe nie można zakładać kont.",
 			"continueWithEmail": "Kontynuuj przez e-mail"
 		},
@@ -271,7 +271,7 @@
 		"verifyOtp": {
 			"pageTitle": "Zweryfikuj kod",
 			"validation": {
-				"codeLength": "Kod musi mieć 6 cyfr"
+				"codeLength": "Podaj 6-cyfrowy kod"
 			},
 			"toast": {
 				"invalidCode": "Nieprawidłowy kod weryfikacyjny",
@@ -297,15 +297,15 @@
 			"emailNotVerified": "Najpierw potwierdź adres e-mail. Wysłaliśmy ci nowy link."
 		},
 		"invitation": {
-			"pageTitleAccept": "Zaakceptuj zaproszenie",
+			"pageTitleAccept": "Przyjmij zaproszenie",
 			"pageTitleError": "Błąd zaproszenia",
 			"pageTitleInvalid": "Nieprawidłowe zaproszenie",
 			"joinWorkspace": "Dołącz do {{workspaceName}}",
 			"createAccount": "Utwórz konto",
 			"signIn": "Zaloguj się",
 			"toast": {
-				"acceptFailed": "Nie udało się zaakceptować zaproszenia",
-				"acceptSuccess": "Zaakceptowano zaproszenie. Witamy w zespole!"
+				"acceptFailed": "Nie udało się przyjąć zaproszenia",
+				"acceptSuccess": "Przyjęto zaproszenie. Witamy w zespole!"
 			},
 			"description": "{{inviterName}} zaprasza cię do tego obszaru roboczego w Kaneo.",
 			"invitedBy": "Zaproszenie od",
@@ -326,7 +326,7 @@
 			},
 			"invalid": {
 				"title": "To zaproszenie jest już nieważne",
-				"description": "Mogło zostać zaakceptowane lub anulowane. Poproś administratora obszaru roboczego o nowe."
+				"description": "Mogło zostać przyjęte lub anulowane. Poproś administratora obszaru roboczego o nowe."
 			},
 			"loadFailed": {
 				"title": "Nie udało się wczytać zaproszenia",
@@ -341,8 +341,8 @@
 				"createFailed": "Nie udało się utworzyć obszaru roboczego"
 			},
 			"validation": {
-				"workspaceNameRequired": "Nazwa obszaru roboczego jest wymagana",
-				"projectNameRequired": "Nazwa projektu jest wymagana"
+				"workspaceNameRequired": "Podaj nazwę obszaru roboczego",
+				"projectNameRequired": "Nadaj nazwę pierwszemu projektowi"
 			},
 			"restrictedSubtitle": "Tutaj tylko administrator instancji może tworzyć obszary robocze. Poproś administratora o zaproszenie, a potem odśwież tę stronę.",
 			"restrictedCheckInvitations": "Sprawdź zaproszenia",
@@ -353,7 +353,7 @@
 					"emailLabel": "E-mail członka zespołu {{index}}",
 					"emailPlaceholder": "kolega@firma.pl",
 					"failed": "Nie udało się zaprosić {{email}}: {{message}}",
-					"invalidEmail": "Nieprawidłowy adres e-mail",
+					"invalidEmail": "Podaj prawidłowy adres e-mail",
 					"remove": "Usuń e-mail {{index}}",
 					"sent_few": "Wysłano {{count}} zaproszenia",
 					"sent_many": "Wysłano {{count}} zaproszeń",
@@ -482,8 +482,8 @@
 				"updateFailed": "Nie udało się zaktualizować profilu"
 			},
 			"validation": {
-				"nameRequired": "Imię i nazwisko jest wymagane",
-				"nameShort": "Imię i nazwisko musi mieć co najmniej 2 znaki"
+				"nameRequired": "Podaj imię i nazwisko",
+				"nameShort": "Użyj co najmniej 2 znaków"
 			}
 		},
 		"passwordReset": {
@@ -498,7 +498,7 @@
 			"newPassword": "Nowe hasło",
 			"confirmPassword": "Powtórz nowe hasło",
 			"passwordMismatch": "Hasła nie są zgodne.",
-			"passwordLength": "Hasło musi mieć od 8 do 128 znaków.",
+			"passwordLength": "Użyj od 8 do 128 znaków.",
 			"invalidLink": "Link do resetowania hasła jest nieprawidłowy lub wygasł. Poproś o nowy link, aby kontynuować.",
 			"requestNewLink": "Wyślij nowy link",
 			"resetError": "Nie udało się zresetować hasła. Spróbuj ponownie.",
@@ -513,7 +513,7 @@
 			"updatePassword": "Zaktualizuj hasło",
 			"changedMind": "Zmiana planów?",
 			"invalidLinkTitle": "Ten link wygasł",
-			"successTitle": "Hasło zostało zaktualizowane"
+			"successTitle": "Zmieniono hasło"
 		},
 		"page": {
 			"terms": "Regulamin",
@@ -526,16 +526,16 @@
 				"label": "Kod urządzenia",
 				"submit": "Kontynuuj",
 				"noCode": "Nie masz jeszcze kodu? Najpierw rozpocznij logowanie w aplikacji.",
-				"codeRequired": "Wpisz kod wyświetlony na urządzeniu.",
+				"codeRequired": "Podaj kod wyświetlony na urządzeniu.",
 				"invalidCode": "Ten kod jest nieprawidłowy lub wygasł."
 			},
 			"approve": {
-				"pageTitle": "Zaakceptuj urządzenie",
+				"pageTitle": "Zatwierdź urządzenie",
 				"title": "Połączyć to urządzenie?",
-				"description": "Urządzenie chce zalogować się jako {{email}}. Zaakceptuj tylko wtedy, gdy ta prośba pochodzi od ciebie.",
+				"description": "Urządzenie chce zalogować się jako {{email}}. Zatwierdź tylko wtedy, gdy ta prośba pochodzi od ciebie.",
 				"matchCode": "Sprawdź, czy kod zgadza się z tym na urządzeniu",
 				"deny": "Odrzuć",
-				"approve": "Zaakceptuj",
+				"approve": "Zatwierdź",
 				"failed": "Nie udało się zaktualizować prośby. Spróbuj ponownie."
 			},
 			"approved": {
@@ -553,7 +553,7 @@
 			},
 			"signIn": {
 				"title": "Zaloguj się, aby połączyć urządzenie",
-				"description": "Zaraz potem wrócisz tutaj, aby je zaakceptować.",
+				"description": "Zaraz potem wrócisz tutaj, aby je zatwierdzić.",
 				"submit": "Zaloguj się"
 			},
 			"openApp": "Otwórz Kaneo"
@@ -798,7 +798,7 @@
 			"minutes_one": "{{count}} minuta",
 			"minutes_few": "{{count}} minuty",
 			"minutes_many": "{{count}} minut",
-			"minutes_other": "{{count}} minut",
+			"minutes_other": "{{count}} minuty",
 			"hours_one": "{{count}} godzina",
 			"hours_few": "{{count}} godziny",
 			"hours_many": "{{count}} godzin",
@@ -1039,7 +1039,7 @@
 			"columns": {
 				"name": "Nazwa",
 				"role": "Rola",
-				"joined": "Dołączenie",
+				"joined": "Data dołączenia",
 				"actions": "Akcje",
 				"projects": "Projekty"
 			},
@@ -1127,8 +1127,8 @@
 			"preview": "Masz zaproszenie do {{workspaceName}} w Kaneo",
 			"title": "Dołącz do {{workspaceName}}",
 			"subtitle": "{{inviterName}} ({{inviterEmail}}) zaprasza Cię do współpracy w Kaneo.",
-			"cta": "Zaakceptuj zaproszenie",
-			"sameEmail": "Możesz zaakceptować zaproszenie przy użyciu tego samego adresu e-mail, na który wysłano tę wiadomość.",
+			"cta": "Przyjmij zaproszenie",
+			"sameEmail": "Możesz przyjąć zaproszenie przy użyciu tego samego adresu e-mail, na który wysłano tę wiadomość.",
 			"ignore": "Jeśli to zaproszenie jest nieoczekiwane, możesz bezpiecznie zignorować tę wiadomość.",
 			"footer": "Zaproszenie do obszaru roboczego Kaneo",
 			"details": {
@@ -1141,7 +1141,7 @@
 		},
 		"pageTitle": "Zaproszenia",
 		"pendingInvitations": "Oczekujące zaproszenia",
-		"acceptSubtitle": "Akceptuj zaproszenia, aby dołączać do obszarów roboczych",
+		"acceptSubtitle": "Przyjmuj zaproszenia, aby dołączać do obszarów roboczych",
 		"noPendingTitle": "Brak oczekujących zaproszeń",
 		"noPendingDescription": "Nie masz obecnie żadnych oczekujących zaproszeń do obszarów roboczych.",
 		"continueToSetup": "Przejdź do konfiguracji",
@@ -1152,8 +1152,8 @@
 			"expires": "Wygasa"
 		},
 		"toast": {
-			"acceptError": "Nie udało się zaakceptować zaproszenia",
-			"acceptSuccess": "Zaakceptowano zaproszenie. Witamy w zespole!",
+			"acceptError": "Nie udało się przyjąć zaproszenia",
+			"acceptSuccess": "Przyjęto zaproszenie. Witamy w zespole!",
 			"rejectError": "Nie udało się odrzucić zaproszenia",
 			"rejectSuccess": "Odrzucono zaproszenie"
 		}
@@ -1203,7 +1203,7 @@
 				"copy": "Kopiuj",
 				"dropImageToUpload": "Upuść obraz, aby go przesłać",
 				"embed": "Osadź",
-				"embedErrorInvalidUrl": "Nieprawidłowy adres URL",
+				"embedErrorInvalidUrl": "Podaj prawidłowy adres URL",
 				"embedErrorYoutubeOnly": "Można osadzać tylko linki YouTube.",
 				"embedVideo": "Osadź wideo",
 				"failedToUploadFile": "Nie udało się przesłać pliku",
@@ -1292,8 +1292,8 @@
 				"namePlaceholder": "Mój klucz API",
 				"title": "Nowy klucz API",
 				"validation": {
-					"nameRequired": "Nazwa jest wymagana",
-					"nameShort": "Nazwa musi mieć co najmniej 3 znaki"
+					"nameRequired": "Podaj nazwę",
+					"nameShort": "Użyj co najmniej 3 znaków"
 				}
 			},
 			"createdModal": {
@@ -1368,7 +1368,7 @@
 			},
 			"update": "Zaktualizuj Discord",
 			"validation": {
-				"webhookInvalid": "Nieprawidłowy adres URL webhooka Discord"
+				"webhookInvalid": "Podaj prawidłowy adres URL webhooka Discord"
 			},
 			"webhookHint": "Utwórz webhook kanału na Discordzie i wklej go tutaj.",
 			"webhookPlaceholder": "https://discord.com/api/webhooks/..."
@@ -1421,7 +1421,7 @@
 				"updateError": "Nie udało się zaktualizować integracji własnego webhooka"
 			},
 			"validation": {
-				"webhookInvalid": "Nieprawidłowy adres URL webhooka",
+				"webhookInvalid": "Podaj prawidłowy adres URL webhooka",
 				"leadTimeRange": "Wybierz czas od 5 minut do 720 godzin."
 			},
 			"webhookHint": "Kaneo wysyła żądania POST z ładunkiem JSON dla każdego włączonego zdarzenia.",
@@ -1458,8 +1458,8 @@
 			"tokenPlaceholder": "Wklej token",
 			"tokenPlaceholderUpdate": "Wklej nowy token, aby go zmienić",
 			"validation": {
-				"baseUrlInvalid": "Nieprawidłowy adres URL (np. https://gitea.example.com)",
-				"baseUrlRequired": "Bazowy adres URL Gitea jest wymagany"
+				"baseUrlInvalid": "Podaj prawidłowy adres URL (np. https://gitea.example.com)",
+				"baseUrlRequired": "Podaj bazowy adres URL Gitea"
 			},
 			"webhookHint": "Dodaj ten webhook w ustawieniach repozytorium, aby zmiany wracały do Kaneo.",
 			"browseEmpty": "Ten token nie ma dostępu do żadnych repozytoriów.",
@@ -1537,8 +1537,8 @@
 			"title": "Profil",
 			"updateError": "Nie udało się zaktualizować profilu",
 			"validation": {
-				"nameRequired": "Imię i nazwisko jest wymagane",
-				"nameShort": "Imię i nazwisko musi mieć co najmniej 2 znaki"
+				"nameRequired": "Podaj imię i nazwisko",
+				"nameShort": "Użyj co najmniej 2 znaków"
 			},
 			"emailHint": "Logujesz się przy użyciu tego adresu."
 		},
@@ -1575,13 +1575,13 @@
 			"ntfyTokenPlaceholder": "Tylko jeśli serwer go wymaga",
 			"ntfyTopicPlaceholder": "alerty-zespolu",
 			"pageTitle": "Powiadomienia",
-			"reminderLeadTimeInvalid": "Wpisz liczbę całkowitą od 1 do {{max}}.",
+			"reminderLeadTimeInvalid": "Podaj liczbę całkowitą od 1 do {{max}}.",
 			"reminderLeadTimeLabel": "Przypomnij mi przed terminem",
 			"saveChanges": "Zapisz zmiany",
 			"saveEventPreferences": "Zapisz typy powiadomień",
 			"serverUrl": "Adres URL serwera",
 			"signingSecret": "Sekret podpisu",
-			"statusConnected": "Połączone",
+			"statusConnected": "Połączony",
 			"statusPaused": "Wstrzymane",
 			"subtitle": "O czym Kaneo cię powiadamia i gdzie.",
 			"title": "Powiadomienia",
@@ -1615,8 +1615,8 @@
 			"webhookSecretPlaceholder": "Opcjonalny współdzielony sekret",
 			"webhookTitle": "Własny webhook",
 			"webhookUrlPlaceholder": "https://example.com/webhooks/kaneo",
-			"channelNotConnected": "Niepołączone",
-			"channelOff": "Wyłączone",
+			"channelNotConnected": "Niepołączony",
+			"channelOff": "Wyłączony",
 			"channelsDescription": "Powiadomienia zawsze pojawiają się w Kaneo. Połącz kanał, aby otrzymywać je także gdzie indziej.",
 			"channelsTitle": "Kanały",
 			"configure": "Skonfiguruj",
@@ -1741,10 +1741,10 @@
 			"toastDeleteError": "Nie udało się usunąć projektu",
 			"toastUpdateError": "Nie udało się zaktualizować projektu",
 			"validation": {
-				"iconRequired": "Ikona jest wymagana",
-				"keyMax": "Klucz może mieć maksymalnie 8 znaków",
-				"keyRequired": "Klucz jest wymagany",
-				"nameRequired": "Nazwa projektu jest wymagana"
+				"iconRequired": "Wybierz ikonę",
+				"keyMax": "Użyj maksymalnie 8 znaków",
+				"keyRequired": "Podaj klucz",
+				"nameRequired": "Podaj nazwę projektu"
 			},
 			"backgroundHint": "Obraz za tablicą. Każdy może wyłączyć tła u siebie.",
 			"backgroundUnavailable": "Przesyłanie obrazów nie jest skonfigurowane w tej instancji.",
@@ -1793,8 +1793,8 @@
 			"gitlabSectionTitle": "Integracja z GitLabem",
 			"codeHostingTitle": "Hosting kodu",
 			"chatTitle": "Czat i webhooki",
-			"statusConnected": "Połączone",
-			"statusPaused": "Wstrzymane",
+			"statusConnected": "Połączona",
+			"statusPaused": "Wstrzymana",
 			"connect": "Połącz",
 			"configure": "Skonfiguruj",
 			"done": "Gotowe",
@@ -1866,7 +1866,7 @@
 			},
 			"update": "Zaktualizuj Slack",
 			"validation": {
-				"webhookInvalid": "Nieprawidłowy adres URL webhooka Slack"
+				"webhookInvalid": "Podaj prawidłowy adres URL webhooka Slack"
 			},
 			"webhookHint": "Utwórz przychodzący webhook w Slacku i wklej go tutaj.",
 			"webhookPlaceholder": "https://hooks.slack.com/services/..."
@@ -1887,7 +1887,7 @@
 			"importTasks": "Importuj zadania",
 			"invalidFormat": "Nieprawidłowy format pliku importu",
 			"noFileDropped": "Nie upuszczono pliku",
-			"notJsonFile": "Plik musi być w formacie JSON",
+			"notJsonFile": "Prześlij plik JSON",
 			"selectFile": "Wybierz plik",
 			"export": "Eksportuj",
 			"exportDescription": "Pobierz wszystkie zadania z tego projektu jako plik.",
@@ -1916,9 +1916,9 @@
 				"updateError": "Nie udało się zaktualizować integracji z Telegramem"
 			},
 			"validation": {
-				"botTokenInvalid": "Nieprawidłowy token bota Telegram",
-				"chatIdRequired": "ID czatu jest wymagane",
-				"threadIdInvalid": "Nieprawidłowe ID tematu"
+				"botTokenInvalid": "Podaj prawidłowy token bota Telegram",
+				"chatIdRequired": "Podaj ID czatu",
+				"threadIdInvalid": "Podaj prawidłowe ID tematu"
 			},
 			"botTokenSavedPlaceholder": "Zapisano. Wklej nowy token, aby go zastąpić.",
 			"loadError": "Nie udało się wczytać ustawień Telegrama."
@@ -1970,8 +1970,8 @@
 				"transferring": "Przekazywanie…"
 			},
 			"validation": {
-				"nameRequired": "Nazwa obszaru roboczego jest wymagana",
-				"nameShort": "Nazwa obszaru roboczego musi mieć co najmniej 2 znaki"
+				"nameRequired": "Podaj nazwę obszaru roboczego",
+				"nameShort": "Użyj co najmniej 2 znaków"
 			},
 			"workspaceInfoTitle": "Obszar roboczy",
 			"ownershipSubtitle": "Widzi to tylko właściciel.",
@@ -1992,7 +1992,7 @@
 			"editLabel": "Edytuj etykietę",
 			"nameLabel": "Nazwa",
 			"namePlaceholder": "Nazwa etykiety",
-			"nameRequired": "Nazwa etykiety jest wymagana",
+			"nameRequired": "Podaj nazwę etykiety",
 			"pageTitle": "Etykiety",
 			"saveLabel": "Zapisz",
 			"subtitle": "Etykiety są wspólne dla wszystkich projektów w tym obszarze roboczym.",
@@ -2220,8 +2220,8 @@
 			"unsavedChanges": "Masz niezapisane zmiany",
 			"validation": {
 				"nameExists": "Rola o tej nazwie już istnieje",
-				"nameRequired": "Nazwa roli jest wymagana",
-				"permissionRequired": "Wymagane jest co najmniej jedno uprawnienie"
+				"nameRequired": "Podaj nazwę roli",
+				"permissionRequired": "Wybierz co najmniej jedno uprawnienie"
 			}
 		},
 		"mattermostIntegration": {
@@ -2237,7 +2237,7 @@
 			},
 			"update": "Zaktualizuj Mattermost",
 			"validation": {
-				"webhookInvalid": "Nieprawidłowy adres URL webhooka Mattermost"
+				"webhookInvalid": "Podaj prawidłowy adres URL webhooka Mattermost"
 			},
 			"webhookHint": "Utwórz przychodzący webhook w Mattermost i wklej go tutaj.",
 			"webhookPlaceholder": "https://twoj-serwer-mattermost.pl/hooks/..."
@@ -2283,9 +2283,9 @@
 			"emptyDescription": "Śledź w każdym zadaniu takie informacje jak rozmiar, klient czy data premiery.",
 			"emptyTitle": "Brak pól niestandardowych",
 			"issues": {
-				"defaultRequired": "Pola wymagane muszą mieć wartość domyślną.",
-				"moreOptionsRequired": "Wybór wielu opcji wymaga co najmniej dwóch opcji.",
-				"optionsRequired": "Wymagana jest co najmniej jedna opcja."
+				"defaultRequired": "Podaj wartość domyślną dla pola wymaganego.",
+				"moreOptionsRequired": "Dodaj co najmniej dwie opcje, aby umożliwić wybór wielu.",
+				"optionsRequired": "Dodaj co najmniej jedną opcję."
 			},
 			"nameLabel": "Nazwa",
 			"newTitle": "Nowe pole",
@@ -2324,7 +2324,7 @@
 			"clearSearch": "Wyczyść wyszukiwanie",
 			"columns": {
 				"actions": "Akcje",
-				"joined": "Dołączenie",
+				"joined": "Data dołączenia",
 				"role": "Rola",
 				"status": "Status",
 				"user": "Użytkownik",
@@ -2421,7 +2421,7 @@
 				"open": "Utwórz użytkownika",
 				"submit": "Utwórz użytkownika",
 				"title": "Utwórz użytkownika",
-				"nameRequired": "Imię i nazwisko jest wymagane",
+				"nameRequired": "Podaj imię i nazwisko",
 				"hintNoEmail": "Aby wysyłać linki do ustawienia hasła, skonfiguruj SMTP_HOST."
 			},
 			"details": {
@@ -2454,7 +2454,7 @@
 				"apiKeysEmpty": "Brak kluczy API.",
 				"apiKeysLoadError": "Nie udało się wczytać kluczy API.",
 				"apiKeysTitle": "Klucze API",
-				"disabled": "Wyłączone",
+				"disabled": "Wyłączony",
 				"lastUsed": "Ostatnio użyty {{time}}",
 				"neverUsed": "Nigdy nieużyty",
 				"revokeAll": "Wyloguj ze wszystkich urządzeń",
@@ -2495,11 +2495,11 @@
 			"updateError": "Nie udało się zmienić hasła.",
 			"updateSuccess": "Zmieniono hasło.",
 			"validation": {
-				"confirmRequired": "Powtórzenie nowego hasła jest wymagane.",
-				"currentRequired": "Obecne hasło jest wymagane.",
+				"confirmRequired": "Powtórz nowe hasło.",
+				"currentRequired": "Podaj obecne hasło.",
 				"mismatch": "Hasła nie są zgodne.",
-				"tooShort": "Nowe hasło musi mieć co najmniej 8 znaków.",
-				"sameAsCurrent": "Nowe hasło musi się różnić od obecnego."
+				"tooShort": "Użyj co najmniej 8 znaków.",
+				"sameAsCurrent": "Użyj innego hasła niż obecne."
 			},
 			"changePassword": "Zmień hasło",
 			"dialogDescription": "Co najmniej 8 znaków, inne niż obecne hasło.",
@@ -2544,9 +2544,9 @@
 			"tokenTypeLabel": "Typ tokenu",
 			"tokenTypePrivate": "Token dostępu osobisty, projektu lub grupy",
 			"validation": {
-				"baseUrlInvalid": "Nieprawidłowy adres URL (np. https://gitlab.com)",
-				"baseUrlRequired": "Bazowy adres URL GitLaba jest wymagany",
-				"pathInvalid": "Nieprawidłowa ścieżka. Podaj pełną ścieżkę, np. grupa/projekt"
+				"baseUrlInvalid": "Podaj prawidłowy adres URL (np. https://gitlab.com)",
+				"baseUrlRequired": "Podaj bazowy adres URL GitLaba",
+				"pathInvalid": "Podaj pełną ścieżkę, np. grupa/projekt"
 			},
 			"webhookHint": "Dodaj ten webhook w ustawieniach projektu, aby zmiany wracały do Kaneo.",
 			"loadProjectsError": "Nie udało się wczytać projektów.",
@@ -3249,7 +3249,7 @@
 			"pausedHint": "Synchronizacja jest wstrzymana. Połącz ponownie, aby ją wznowić.",
 			"projectSection": "Projekt",
 			"reconnect": "Połącz ponownie",
-			"repositoryPathInvalid": "Repozytorium musi mieć format właściciel/nazwa.",
+			"repositoryPathInvalid": "Podaj repozytorium w formacie właściciel/nazwa.",
 			"repositoryPathLabel": "Repozytorium",
 			"repositorySection": "Repozytorium",
 			"retry": "Spróbuj ponownie",
@@ -3603,10 +3603,10 @@
 			"categories": "Zdarzenia",
 			"deleteTitle": "Usunąć webhook?",
 			"deliveries": "Ostatnie dostarczenia",
-			"disabled": "Wyłączone",
+			"disabled": "Wyłączony",
 			"edit": "Edytuj webhook",
 			"empty": "Brak webhooków",
-			"enabled": "Włączone",
+			"enabled": "Włączony",
 			"errors": {
 				"destination": "Zablokowany adres docelowy",
 				"disabled": "Webhook wyłączony",
@@ -3786,7 +3786,7 @@
 					},
 					"embeddedContent": "Osadzona treść",
 					"errors": {
-						"invalidUrl": "Nieprawidłowy adres URL",
+						"invalidUrl": "Podaj prawidłowy adres URL",
 						"onlyYoutube": "Można osadzać tylko linki YouTube."
 					},
 					"inputPlaceholder": "Wklej adres URL",
@@ -4086,7 +4086,7 @@
 			"tasksInProject": "Zadania w projekcie",
 			"title": "Powiązania",
 			"types": {
-				"blocked_by": "blokowane przez",
+				"blocked_by": "zablokowane przez",
 				"blocks": "blokuje",
 				"related": "powiązane z"
 			},
@@ -4540,7 +4540,7 @@
 				"denied": "Logowanie zostało odrzucone w przeglądarce.",
 				"expired": "Kod logowania wygasł. Zacznij od nowa, aby otrzymać nowy.",
 				"openFailed": "Nie udało się otworzyć przeglądarki. Skopiuj link.",
-				"message": "Zaakceptuj to urządzenie na stronie Kaneo. Działają tam GitHub, Google, Discord i SSO.",
+				"message": "Zatwierdź to urządzenie na stronie Kaneo. Działają tam GitHub, Google, Discord i SSO.",
 				"yourCode": "Twój kod",
 				"copyCode": "Kopiuj kod",
 				"codeCopied": "Skopiowano kod",
@@ -4548,7 +4548,7 @@
 				"linkCopied": "Skopiowano link",
 				"openBrowser": "Otwórz przeglądarkę",
 				"tryAgain": "Spróbuj ponownie",
-				"waiting": "Oczekiwanie na akceptację…",
+				"waiting": "Oczekiwanie na zatwierdzenie…",
 				"gettingCode": "Pobieranie kodu…"
 			},
 			"apiKey": {
@@ -4570,7 +4570,7 @@
 			}
 		},
 		"invitations": {
-			"accepted": "Zaakceptowano zaproszenie",
+			"accepted": "Przyjęto zaproszenie",
 			"declined": "Odrzucono zaproszenie",
 			"title": "Zaproszenia",
 			"description": "Obszary robocze, do których cię zaproszono.",
@@ -4578,7 +4578,7 @@
 			"emptyMessage": "Zaproszenia pojawią się tutaj po zweryfikowaniu twojego adresu e-mail. Zawsze możesz dołączyć przez link z wiadomości.",
 			"invitedYou": "{{name}} zaprasza cię",
 			"decline": "Odrzuć",
-			"accept": "Zaakceptuj",
+			"accept": "Przyjmij",
 			"joinWithLink": "Dołącz przez link z zaproszeniem",
 			"linkPlaceholder": "Wklej link z wiadomości e-mail",
 			"join": "Dołącz"
@@ -4870,9 +4870,9 @@
 			"checked": "Zaznaczone",
 			"chooseDefault": "Wybierz wartość domyślną",
 			"defaultValue": "Wartość domyślna",
-			"multiselectOptionsRequired": "Wymagane są co najmniej dwie różne opcje.",
+			"multiselectOptionsRequired": "Dodaj co najmniej dwie różne opcje.",
 			"unchecked": "Odznaczone",
-			"validDefaultRequired": "To wymagane pole musi mieć prawidłową wartość domyślną."
+			"validDefaultRequired": "Podaj prawidłową wartość domyślną dla tego wymaganego pola."
 		},
 		"projectNew": {
 			"newProject": "Nowy projekt",
@@ -4885,7 +4885,7 @@
 		"home": {
 			"noWorkspace": {
 				"title": "Nie masz jeszcze obszaru roboczego",
-				"body": "Obszary robocze zawierają twoje projekty i zespół. Utwórz nowy lub zaakceptuj zaproszenie.",
+				"body": "Obszary robocze zawierają twoje projekty i zespół. Utwórz nowy lub przyjmij zaproszenie.",
 				"create": "Utwórz obszar roboczy",
 				"viewInvitations_one": "Pokaż {{count}} zaproszenie",
 				"viewInvitations_few": "Pokaż {{count}} zaproszenia",
@@ -4902,7 +4902,7 @@
 			"progress": "{{done}} z {{total}}",
 			"noTasks": "Brak zadań",
 			"upNext": "Następne",
-			"viewAll": "Pokaż wszystkie",
+			"viewAll": "Zobacz wszystkie",
 			"projects": "Projekty",
 			"newProject": "Nowy projekt",
 			"empty": {
@@ -4978,7 +4978,7 @@
 			"create": "Utwórz obszar roboczy"
 		},
 		"search": {
-			"placeholder": "Szukaj zadań, projektów, komentarzy",
+			"placeholder": "Szukaj zadań, projektów i komentarzy",
 			"clear": "Wyczyść",
 			"kinds": {
 				"all": "Wszystko",
