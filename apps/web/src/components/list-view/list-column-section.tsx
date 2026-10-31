@@ -9,6 +9,7 @@ import { memo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { cn } from "@/lib/cn";
 import { getColumnIcon } from "@/lib/column";
+import { getStatusDisplayLabel } from "@/lib/i18n/domain";
 import { EASE_OUT } from "@/lib/motion";
 import type { SubtaskRow } from "@/lib/subtask-tree";
 import type { ProjectWithTasks } from "@/types/project";
@@ -90,7 +91,9 @@ const ListColumnSection = memo(function ListColumnSection({
           <div className="flex items-center gap-2 h-4">
             {getColumnIcon(column.id, column.isFinal, column.icon)}
             <div className="flex items-center gap-1">
-              <span className="mt-1 mr-1">{column.name}</span>
+              <span className="mt-1 mr-1">
+                {getStatusDisplayLabel(column.id, column.name)}
+              </span>
               <span className="text-xs text-muted-foreground mt-0.5">
                 {column.tasks.length}
               </span>

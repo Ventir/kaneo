@@ -18,6 +18,10 @@ const m = vi.hoisted(() => ({
 }));
 
 vi.mock("@/lib/i18n", () => ({ i18n: { t: (key: string) => key } }));
+vi.mock("@/lib/i18n/domain", async (original) => ({
+  ...(await original<typeof import("@/lib/i18n/domain")>()),
+  getStatusDisplayLabel: (status: string, name?: string) => name ?? status,
+}));
 vi.mock("react-i18next", () => ({
   useTranslation: () => ({
     t: (key: string) => key,

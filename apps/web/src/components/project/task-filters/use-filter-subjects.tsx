@@ -1,7 +1,7 @@
 import { CalendarDays, CircleDot, Tag, UserRound } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { getColumnIcon } from "@/lib/column";
-import { getPriorityLabel } from "@/lib/i18n/domain";
+import { getPriorityLabel, getStatusDisplayLabel } from "@/lib/i18n/domain";
 import { getPriorityIcon } from "@/lib/priority";
 import { countValues } from "@/lib/task-filters/count-values";
 import { DUE_DATE_OPTIONS } from "@/lib/task-filters/due-date-options";
@@ -96,7 +96,7 @@ export function useFilterSubjects({
             icon: <CircleDot />,
             options: columns.map((column) => ({
               value: column.id,
-              label: column.name,
+              label: getStatusDisplayLabel(column.id, column.name),
               icon: getColumnIcon(column.id, column.isFinal, column.icon),
               count: counts.status[column.id],
             })),

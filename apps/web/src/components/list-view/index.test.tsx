@@ -44,6 +44,10 @@ vi.mock("@dnd-kit/core", async (original) => ({
     return props.children;
   },
 }));
+vi.mock("@/lib/i18n/domain", async (original) => ({
+  ...(await original<typeof import("@/lib/i18n/domain")>()),
+  getStatusDisplayLabel: (status: string, name?: string) => name ?? status,
+}));
 vi.mock("@tanstack/react-router", () => ({
   useNavigate: () => vi.fn(),
   useRouter: () => ({ preloadRoute: () => Promise.resolve() }),

@@ -52,6 +52,7 @@ vi.mock("@/store/user-preferences", () => ({
 vi.mock("@/lib/i18n/domain", () => ({
   getStatusLabel: (status: string) => status,
   getPriorityLabel: (priority: string) => priority,
+  getStatusDisplayLabel: (status: string, name?: string) => name ?? status,
 }));
 vi.mock("react-i18next", () => ({
   useTranslation: () => ({ t: (key: string) => key }),
