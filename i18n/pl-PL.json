@@ -4308,8 +4308,8 @@
 		"founder": {
 			"title": "Dlaczego powstało Kaneo",
 			"intro": "Jestem Andrej i stworzyłem Kaneo, bo miałem dość narzędzi do zarządzania projektami, które bardziej przeszkadzały, niż pomagały. Po latach korzystania z rozdmuchanych, przekombinowanych platform, które odciągały od właściwej pracy, wiedziałem, że da się to zrobić lepiej.",
-			"problem": "The problem wasn't that these tools lacked features - it was that they had too many. Every notification, every unnecessary button, every complex workflow was pulling my team away from what mattered: building great products.",
-			"principle": "I believe the best tools are invisible. They should amplify your team's natural workflow, not force you to adapt to theirs. Kaneo is built on the principle that less is more - every feature exists because it solves a real problem, not because it looks impressive in a demo."
+			"problem": "Problemem nie był brak funkcji w tych narzędziach. Problemem było to, że miały ich za dużo. Każde powiadomienie, każdy zbędny przycisk, każdy skomplikowany proces odciągał mój zespół od tego, co ważne: tworzenia świetnych produktów.",
+			"principle": "Wierzę, że najlepsze narzędzia są niewidoczne. Powinny wzmacniać naturalny sposób pracy zespołu, a nie zmuszać go do dostosowania się do nich. Kaneo opiera się na zasadzie „mniej znaczy więcej”: każda funkcja istnieje, bo rozwiązuje prawdziwy problem, a nie dlatego, że dobrze wygląda na prezentacji."
 		},
 		"hero": {
 			"cloudCta": "Wypróbuj Kaneo Cloud",
@@ -4318,7 +4318,7 @@
 			"productHunt": "Product Hunt",
 			"title": "Zarządzanie projektami,",
 			"titleAccent": "które nie staje się kolejnym projektem.",
-			"description": "Open-source project management with boards, Gantt charts, and GitHub integration. Self-host for free with SSO included, or let Kaneo Cloud handle the hosting.",
+			"description": "Tablice, wykresy Gantta i integracja z GitHubem dla zespołów, które wolą dostarczać, niż zarządzać narzędziem do śledzenia zadań. Kaneo Cloud zajmuje się hostingiem, kopiami zapasowymi i aktualizacjami, więc możesz zacząć w kilka minut.",
 			"pricingCta": "Zobacz cennik"
 		},
 		"navigation": {
@@ -4359,9 +4359,9 @@
 				"link": "Skonfiguruj GitHuba"
 			},
 			"hosting": {
-				"title": "Run it on your own server.",
-				"description": "Deploy with Docker and keep your workspace on infrastructure you control.",
-				"link": "Self-host Kaneo"
+				"title": "Uruchamiamy je za ciebie.",
+				"description": "Kaneo Cloud zajmuje się hostingiem, kopiami zapasowymi i aktualizacjami, więc nikt w zespole nie musi dyżurować przy narzędziu do zadań.",
+				"link": "Zobacz cennik"
 			},
 			"source": {
 				"title": "Kod też jest otwarty.",
@@ -4402,16 +4402,16 @@
 			}
 		},
 		"seo": {
-			"title": "Kaneo — Open-source, self-hosted project management",
-			"description": "Open-source project management with boards, Gantt charts, and GitHub integration. Self-host for free with SSO included, or use Kaneo Cloud."
+			"title": "Kaneo: zarządzanie projektami, które nie staje się kolejnym projektem",
+			"description": "Tablice, wykresy Gantta i integracja z GitHubem, hostowane dla ciebie w Kaneo Cloud. Wypróbuj za darmo przez 14 dni, bez karty kredytowej."
 		},
 		"resources": {
 			"eyebrow": "Dopasuj do siebie",
 			"title": "Prosta droga od wypróbowania do codziennej pracy.",
-			"description": "Set up your server, connect your tools, or compare Kaneo with your current tracker.",
+			"description": "Zobacz, jak zespoły korzystają z Kaneo, połącz swoje narzędzia lub porównaj je z obecnym narzędziem do śledzenia zadań.",
 			"sso": {
 				"title": "Użyj własnego dostawcy tożsamości",
-				"description": "Configure OIDC single sign-on in the free self-hosted build."
+				"description": "Połącz Google, GitHub lub dowolnego dostawcę OIDC, aby korzystać z logowania jednokrotnego."
 			},
 			"mcp": {
 				"title": "Połącz swoje narzędzia AI",
@@ -4429,11 +4429,11 @@
 		"product": {
 			"title": "Zanim zaczniesz",
 			"description": "Praktyczne informacje o hostingu, planowaniu i podłączaniu zespołu.",
-			"overview": "Kaneo is an open-source, MIT-licensed project management platform with boards, backlog, Gantt and calendar views, custom fields, time tracking, and GitHub integration. Self-host it on your own infrastructure or use Kaneo Cloud.",
+			"overview": "Kaneo to platforma do zarządzania projektami z tablicami, backlogiem, widokami Gantta i kalendarza, polami niestandardowymi, rejestracją czasu i integracją z GitHubem. Kaneo Cloud uruchamia ją za ciebie, a wersję open source można też hostować samodzielnie.",
 			"hosting": {
-				"question": "Is Kaneo free to self-host?",
-				"answer": "Yes. Kaneo is MIT licensed and free to self-host, with single sign-on included. Run the application alongside PostgreSQL using Docker Compose, or deploy with the official Helm chart. You manage infrastructure, updates, and backups.",
-				"link": "Read the installation guide"
+				"question": "Ile kosztuje Kaneo Cloud?",
+				"answer": "Kaneo Cloud kosztuje 5 USD za użytkownika miesięcznie lub 4 USD miesięcznie dla jednego użytkownika, ze wszystkimi funkcjami i dwoma miesiącami gratis przy płatności rocznej. Hostingiem, kopiami zapasowymi i aktualizacjami zajmujemy się my. Każdy plan zaczyna się od 14-dniowego darmowego okresu próbnego, bez karty kredytowej.",
+				"link": "Zobacz cennik"
 			},
 			"planning": {
 				"question": "Czy Kaneo ma wykresy Gantta?",
@@ -4442,8 +4442,8 @@
 			},
 			"sso": {
 				"question": "Czy logowanie jednokrotne (SSO) jest w cenie?",
-				"answer": "Yes. The free self-hosted build supports Google, GitHub, Discord, and custom OAuth/OIDC providers. Configure your provider on your instance without purchasing a separate Kaneo edition.",
-				"link": "Configure OIDC"
+				"answer": "Tak, bez kupowania osobnej edycji. Kaneo obsługuje Google, GitHub, Discord i własnych dostawców OAuth/OIDC. Aby połączyć własnego dostawcę tożsamości bez utrzymywania serwerów, wybierz instancję zarządzaną, która obejmuje własną domenę i logowanie jednokrotne.",
+				"link": "Zobacz instancje zarządzane"
 			},
 			"agents": {
 				"question": "Czy klienty AI mogą pracować z Kaneo?",
