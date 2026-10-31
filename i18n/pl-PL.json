@@ -2383,7 +2383,7 @@
 				"admin": "Administrator",
 				"user": "Użytkownik"
 			},
-			"searchCount_few": "{{count}} pasujących użytkowników",
+			"searchCount_few": "{{count}} pasujący użytkownicy",
 			"searchCount_many": "{{count}} pasujących użytkowników",
 			"searchCount_one": "{{count}} pasujący użytkownik",
 			"searchCount_other": "{{count}} pasującego użytkownika",
@@ -2831,7 +2831,7 @@
 			"members": {
 				"actions": "Akcje: {{name}}",
 				"add": "Dodaj członka",
-				"count_few": "{{count}} członków",
+				"count_few": "{{count}} członkowie",
 				"count_many": "{{count}} członków",
 				"count_one": "{{count}} członek",
 				"count_other": "{{count}} członka",
@@ -3563,7 +3563,7 @@
 				"error": "Nie udało się zapisać roli.",
 				"updated": "Zaktualizowano rolę"
 			},
-			"userCount_few": "{{count}} użytkowników",
+			"userCount_few": "{{count}} użytkownicy",
 			"userCount_many": "{{count}} użytkowników",
 			"userCount_one": "{{count}} użytkownik",
 			"userCount_other": "{{count}} użytkownika",
