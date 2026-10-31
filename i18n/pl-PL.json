@@ -48,7 +48,7 @@
 		},
 		"people": {
 			"someone": "Ktoś",
-			"unknown": "Nieznany"
+			"unknown": "Nieznana osoba"
 		},
 		"error": {
 			"title": "Coś poszło nie tak",
@@ -339,7 +339,7 @@
 				"workspaceNameRequired": "Nazwa obszaru roboczego jest wymagana",
 				"projectNameRequired": "Nazwa projektu jest wymagana"
 			},
-			"restrictedSubtitle": "Tutaj tylko administrator instancji może tworzyć obszary robocze. Poproś go o zaproszenie i odśwież tę stronę.",
+			"restrictedSubtitle": "Tutaj tylko administrator instancji może tworzyć obszary robocze. Poproś administratora o zaproszenie, a potem odśwież tę stronę.",
 			"restrictedCheckInvitations": "Sprawdź zaproszenia",
 			"restrictedTitle": "Potrzebujesz zaproszenia",
 			"cloud": {
@@ -878,7 +878,7 @@
 			"emptyDescription": "Zacznij od utworzenia pierwszego projektu.",
 			"emptyDescriptionReadOnly": "W tym obszarze roboczym nie ma jeszcze projektów. Poproś administratora o utworzenie jednego.",
 			"projectStatus": {
-				"notStarted": "Nie rozpoczęto",
+				"notStarted": "Nierozpoczęty",
 				"complete": "Ukończony",
 				"inProgress": "W trakcie"
 			},
@@ -1491,7 +1491,7 @@
 			"chooseRepositoryDescription": "Jego zgłoszenia i pull requesty zostaną powiązane z zadaniami w tym projekcie.",
 			"linkAccountDescription": "Potwierdza, że możesz administrować repozytorium.",
 			"linkAccountTitle": "Połącz swoje konto GitHub",
-			"linked": "Połączono",
+			"linked": "Połączone",
 			"linkGithub": "Połącz GitHub",
 			"verifyMissingPermissions": "Aplikacji GitHub Kaneo brakuje uprawnień: {{list}}.",
 			"verifyNotInstalled": "Aplikacja GitHub Kaneo nie jest zainstalowana w tym repozytorium.",
@@ -1576,8 +1576,8 @@
 			"saveEventPreferences": "Zapisz typy powiadomień",
 			"serverUrl": "Adres URL serwera",
 			"signingSecret": "Sekret podpisu",
-			"statusConnected": "Połączono",
-			"statusPaused": "Wstrzymano",
+			"statusConnected": "Połączone",
+			"statusPaused": "Wstrzymane",
 			"subtitle": "O czym Kaneo cię powiadamia i gdzie.",
 			"title": "Powiadomienia",
 			"toastEmailSaved": "Zapisano ustawienia powiadomień e-mail",
@@ -1610,8 +1610,8 @@
 			"webhookSecretPlaceholder": "Opcjonalny współdzielony sekret",
 			"webhookTitle": "Własny webhook",
 			"webhookUrlPlaceholder": "https://example.com/webhooks/kaneo",
-			"channelNotConnected": "Niepołączony",
-			"channelOff": "Wyłączony",
+			"channelNotConnected": "Niepołączone",
+			"channelOff": "Wyłączone",
 			"channelsDescription": "Powiadomienia zawsze pojawiają się w Kaneo. Połącz kanał, aby otrzymywać je także gdzie indziej.",
 			"channelsTitle": "Kanały",
 			"configure": "Skonfiguruj",
@@ -1788,8 +1788,8 @@
 			"gitlabSectionTitle": "Integracja z GitLabem",
 			"codeHostingTitle": "Hosting kodu",
 			"chatTitle": "Czat i webhooki",
-			"statusConnected": "Połączono",
-			"statusPaused": "Wstrzymano",
+			"statusConnected": "Połączone",
+			"statusPaused": "Wstrzymane",
 			"connect": "Połącz",
 			"configure": "Skonfiguruj",
 			"done": "Gotowe",
@@ -2216,7 +2216,7 @@
 			"validation": {
 				"nameExists": "Rola o tej nazwie już istnieje",
 				"nameRequired": "Nazwa roli jest wymagana",
-				"permissionRequired": "Należy wybrać co najmniej jedno uprawnienie"
+				"permissionRequired": "Wymagane jest co najmniej jedno uprawnienie"
 			}
 		},
 		"mattermostIntegration": {
@@ -2449,7 +2449,7 @@
 				"apiKeysEmpty": "Brak kluczy API.",
 				"apiKeysLoadError": "Nie udało się wczytać kluczy API.",
 				"apiKeysTitle": "Klucze API",
-				"disabled": "Wyłączony",
+				"disabled": "Wyłączone",
 				"lastUsed": "Ostatnio użyty {{time}}",
 				"neverUsed": "Nigdy nieużyty",
 				"revokeAll": "Wyloguj ze wszystkich urządzeń",
@@ -3362,7 +3362,7 @@
 				"webhook": "Webhook"
 			},
 			"title": "Dziennik audytu",
-			"unknownActor": "Nieznany"
+			"unknownActor": "Nieznany użytkownik"
 		},
 		"sessions": {
 			"device": "{{browser}} w systemie {{os}}",
@@ -3375,8 +3375,8 @@
 			"revoking": "Wylogowywanie...",
 			"signedIn": "Zalogowano {{date}}",
 			"thisDevice": "To urządzenie",
-			"toastRevoked": "Wylogowano sesję.",
-			"toastRevokeError": "Nie udało się wylogować sesji.",
+			"toastRevoked": "Zakończono sesję.",
+			"toastRevokeError": "Nie udało się zakończyć sesji.",
 			"unknownDevice": "Nieznane urządzenie"
 		},
 		"adminSystem": {
@@ -3597,10 +3597,10 @@
 			"categories": "Zdarzenia",
 			"deleteTitle": "Usunąć webhook?",
 			"deliveries": "Ostatnie dostarczenia",
-			"disabled": "Wyłączony",
+			"disabled": "Wyłączone",
 			"edit": "Edytuj webhook",
 			"empty": "Brak webhooków",
-			"enabled": "Włączony",
+			"enabled": "Włączone",
 			"errors": {
 				"destination": "Zablokowany adres docelowy",
 				"disabled": "Webhook wyłączony",
@@ -4223,7 +4223,7 @@
 			"noResults": "Brak wyników"
 		},
 		"shortcuts": {
-			"assignedToMe": "Przypisano do ciebie",
+			"assignedToMe": "Przypisane do ciebie",
 			"idCopied": "Skopiowano ID zadania",
 			"titleCopied": "Skopiowano tytuł zadania",
 			"markdownCopied": "Skopiowano jako Markdown",
@@ -5273,7 +5273,7 @@
 			},
 			"people": {
 				"title": "Osoby",
-				"unknown": "Nieznany",
+				"unknown": "Nieznana osoba",
 				"you": "(ty)"
 			},
 			"memberMenu": {
