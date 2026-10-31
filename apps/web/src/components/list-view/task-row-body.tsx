@@ -106,7 +106,7 @@ export function TaskRowBody({
       </div>
 
       {showDueDates && (
-        <div className="flex w-24 shrink-0 justify-end">
+        <div className="flex min-w-24 shrink-0 justify-end">
           <DueDateChip task={task} isCompleted={isCompleted} />
         </div>
       )}
