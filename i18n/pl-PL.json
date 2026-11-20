@@ -238,8 +238,8 @@
 			"passwordTooShort": "Użyj co najmniej 8 znaków.",
 			"disposableEmail": "Użyj stałego adresu e-mail. Na adresy jednorazowe nie można zakładać kont.",
 			"continueWithEmail": "Kontynuuj przez e-mail",
-			"captchaChecking": "Trwa szybka kontrola bezpieczeństwa, zanim przejdziesz dalej.",
-			"captchaFailed": "Kontrola bezpieczeństwa się nie załadowała, więc logowanie jest wstrzymane. Sprawdź połączenie lub bloker treści.",
+			"captchaChecking": "Trwa szybka kontrola bezpieczeństwa. Za chwilę przejdziesz dalej.",
+			"captchaFailed": "Nie udało się wczytać kontroli bezpieczeństwa, więc logowanie jest wstrzymane. Sprawdź połączenie albo program blokujący treści.",
 			"captchaRetry": "Spróbuj ponownie"
 		},
 		"checkEmail": {
@@ -414,7 +414,7 @@
 				"title": "Utwórz pierwszy projekt",
 				"description": "Dodamy kilka zadań startowych, które pomogą ci się zorientować. Możesz je w każdej chwili zmienić lub usunąć.",
 				"label": "Nazwa projektu",
-				"ticketStart": "Identyfikatory zadań zaczną się od {{ticket}}."
+				"ticketStart": "Numeracja zadań zacznie się od {{ticket}}."
 			},
 			"invite": {
 				"title": "Zaproś swój zespół",
@@ -3639,8 +3639,8 @@
 			"startDate": "Data rozpoczęcia",
 			"noDate": "Brak daty",
 			"condition": "Warunek daty",
-			"exact": "Dokładna data",
-			"range": "Zakres dat",
+			"exact": "W dniu",
+			"range": "Między",
 			"before": "Przed",
 			"after": "Po",
 			"apply": "Zastosuj filtr daty",
@@ -4185,8 +4185,8 @@
 		"board": {
 			"reorderFailed": "Nie udało się przenieść zadania. Spróbuj ponownie.",
 			"keyboardInstructions": "Naciśnij Spację, aby wyświetlić podgląd, i Enter, aby otworzyć to zadanie. Użyj Alt lub Option ze strzałkami, aby je przenieść.",
-			"loadErrorTitle": "Ta tablica się nie załadowała",
-			"loadErrorDescription": "Coś poszło nie tak podczas pobierania zadań. Sprawdź połączenie i spróbuj ponownie.",
+			"loadErrorTitle": "Nie udało się wczytać tablicy",
+			"loadErrorDescription": "Wystąpił problem podczas pobierania zadań. Sprawdź połączenie i spróbuj ponownie.",
 			"refreshError": "Nie udało się odświeżyć tablicy, więc może być nieaktualna.",
 			"tryAgain": "Spróbuj ponownie"
 		},
@@ -4285,13 +4285,13 @@
 			"empty": "Nie zarejestrowano jeszcze czasu.",
 			"loadError": "Nie udało się wczytać wpisów czasu.",
 			"retry": "Spróbuj ponownie",
-			"running": "W toku",
+			"running": "Trwa",
 			"start": "Uruchom licznik",
 			"startError": "Nie udało się uruchomić licznika.",
 			"stop": "Zatrzymaj licznik",
 			"stopError": "Nie udało się zatrzymać licznika.",
 			"title": "Śledzenie czasu",
-			"unknownUser": "Nieznany",
+			"unknownUser": "Nieznana osoba",
 			"durationSeconds": "{{seconds, number}} s",
 			"durationMinutes": "{{minutes, number}} min",
 			"durationHoursMinutes": "{{hours, number}} godz. {{minutes, number}} min"
@@ -4490,9 +4490,9 @@
 				"link": "Przeczytaj przewodnik po MCP"
 			},
 			"mobile": {
-				"answer": "Yes. Kaneo is on the App Store for iPhone and iPad, and Android is coming soon. The app is free for Kaneo Cloud accounts. Connecting it to a self-hosted server is a one-time $9.99 unlock per person, and like the rest of Kaneo, the app is open source.",
-				"link": "Download on the App Store",
-				"question": "Is there a mobile app?"
+				"answer": "Tak. Kaneo jest w App Store na iPhone'a i iPada, a wersja na Androida pojawi się wkrótce. Aplikacja jest bezpłatna dla kont Kaneo Cloud. Połączenie jej z własnym serwerem to jednorazowy zakup za 9,99 USD na osobę. Jak całe Kaneo, aplikacja ma otwarty kod źródłowy.",
+				"link": "Pobierz z App Store",
+				"question": "Czy jest aplikacja mobilna?"
 			}
 		},
 		"comparison": {
@@ -4772,13 +4772,13 @@
 			"link": "Link",
 			"insertImage": "Wstaw obraz",
 			"attachment": "Załącznik",
-			"applyLink": "Apply",
-			"checklist": "Checklist",
-			"linkUrl": "URL",
-			"numberedList": "Numbered list",
-			"quote": "Quote",
-			"removeLink": "Remove link",
-			"hideKeyboard": "Hide keyboard"
+			"applyLink": "Zastosuj",
+			"checklist": "Lista kontrolna",
+			"linkUrl": "Adres URL",
+			"numberedList": "Lista numerowana",
+			"quote": "Cytat",
+			"removeLink": "Usuń link",
+			"hideKeyboard": "Ukryj klawiaturę"
 		},
 		"composer": {
 			"reply": "Odpowiedz: {{name}}…",
@@ -5211,19 +5211,19 @@
 				"signOutOthers": "Wyloguj inne urządzenia"
 			},
 			"deleteAccount": {
-				"confirm": "Delete account",
-				"confirmLabel": "Type {{email}} to confirm",
-				"description": "Permanently delete your account and its data.",
-				"modalDescription": "This permanently deletes your account and cannot be undone. Workspaces only you belong to are deleted with it. Elsewhere, your tasks stay and become unassigned, and your comments are removed.",
-				"modalTitle": "Delete your account?",
-				"noPassword": "This account has no password. Leave the field empty.",
-				"password": "Password",
-				"passwordHint": "Leave empty if you sign in without a password.",
-				"sectionTitle": "Danger zone",
-				"sessionTooOld": "For your security, enter your password, or sign out and sign in again before deleting your account.",
-				"success": "Your account was deleted",
-				"title": "Delete account",
-				"wrongPassword": "That password is not correct."
+				"confirm": "Usuń konto",
+				"confirmLabel": "Wpisz {{email}}, aby potwierdzić",
+				"description": "Trwale usuń konto i jego dane.",
+				"modalDescription": "Spowoduje to trwałe usunięcie konta. Tej operacji nie można cofnąć. Obszary robocze, do których należysz tylko ty, zostaną usunięte razem z nim. W pozostałych twoje zadania pozostaną jako nieprzypisane, a twoje komentarze zostaną usunięte.",
+				"modalTitle": "Usunąć konto?",
+				"noPassword": "To konto nie ma hasła. Zostaw pole puste.",
+				"password": "Hasło",
+				"passwordHint": "Zostaw puste, jeśli logujesz się bez hasła.",
+				"sectionTitle": "Strefa niebezpieczna",
+				"sessionTooOld": "Ze względów bezpieczeństwa podaj hasło albo wyloguj się i zaloguj ponownie przed usunięciem konta.",
+				"success": "Twoje konto zostało usunięte",
+				"title": "Usuń konto",
+				"wrongPassword": "Hasło jest nieprawidłowe."
 			}
 		},
 		"notificationSettings": {
