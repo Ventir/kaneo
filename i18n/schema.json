@@ -916,6 +916,15 @@
 						},
 						"continueWithEmail": {
 							"type": "string"
+						},
+						"captchaChecking": {
+							"type": "string"
+						},
+						"captchaFailed": {
+							"type": "string"
+						},
+						"captchaRetry": {
+							"type": "string"
 						}
 					},
 					"required": [
@@ -933,7 +942,10 @@
 						"passwordRequired",
 						"passwordTooShort",
 						"disposableEmail",
-						"continueWithEmail"
+						"continueWithEmail",
+						"captchaChecking",
+						"captchaFailed",
+						"captchaRetry"
 					]
 				},
 				"checkEmail": {
@@ -13672,9 +13684,87 @@
 					"properties": {
 						"reorderFailed": {
 							"type": "string"
+						},
+						"loadErrorTitle": {
+							"type": "string"
+						},
+						"loadErrorDescription": {
+							"type": "string"
+						},
+						"refreshError": {
+							"type": "string"
+						},
+						"tryAgain": {
+							"type": "string"
 						}
 					},
-					"required": ["reorderFailed"]
+					"required": [
+						"reorderFailed",
+						"loadErrorTitle",
+						"loadErrorDescription",
+						"refreshError",
+						"tryAgain"
+					]
+				},
+				"timeTracking": {
+					"type": "object",
+					"additionalProperties": false,
+					"properties": {
+						"title": {
+							"type": "string"
+						},
+						"start": {
+							"type": "string"
+						},
+						"stop": {
+							"type": "string"
+						},
+						"running": {
+							"type": "string"
+						},
+						"empty": {
+							"type": "string"
+						},
+						"unknownUser": {
+							"type": "string"
+						},
+						"startError": {
+							"type": "string"
+						},
+						"stopError": {
+							"type": "string"
+						},
+						"loadError": {
+							"type": "string"
+						},
+						"retry": {
+							"type": "string"
+						},
+						"durationSeconds": {
+							"type": "string"
+						},
+						"durationMinutes": {
+							"type": "string"
+						},
+						"durationHoursMinutes": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"title",
+						"start",
+						"stop",
+						"running",
+						"empty",
+						"unknownUser",
+						"startError",
+						"stopError",
+						"loadError",
+						"retry",
+						"durationSeconds",
+						"durationMinutes",
+						"durationHoursMinutes"
+					]
 				}
 			},
 			"required": [
@@ -13718,7 +13808,8 @@
 				"descriptionRetry",
 				"descriptionLoading",
 				"descriptionLoadError",
-				"board"
+				"board",
+				"timeTracking"
 			]
 		},
 		"invitations": {

@@ -237,7 +237,10 @@
 			"passwordRequired": "Podaj hasło.",
 			"passwordTooShort": "Użyj co najmniej 8 znaków.",
 			"disposableEmail": "Użyj stałego adresu e-mail. Na adresy jednorazowe nie można zakładać kont.",
-			"continueWithEmail": "Kontynuuj przez e-mail"
+			"continueWithEmail": "Kontynuuj przez e-mail",
+			"captchaChecking": "Trwa szybka kontrola bezpieczeństwa, zanim przejdziesz dalej.",
+			"captchaFailed": "Kontrola bezpieczeństwa się nie załadowała, więc logowanie jest wstrzymane. Sprawdź połączenie lub bloker treści.",
+			"captchaRetry": "Spróbuj ponownie"
 		},
 		"checkEmail": {
 			"pageTitle": "Sprawdź e-mail",
@@ -396,8 +399,6 @@
 				}
 			},
 			"progress": "Krok {{current}} z {{total}}",
-			"welcome": "Witaj, {{name}}",
-			"settingUp": "Konfiguracja: {{name}}",
 			"continue": "Kontynuuj",
 			"signedInAs": "Zalogowano jako {{email}}",
 			"signOut": "Wyloguj się",
@@ -413,7 +414,7 @@
 				"title": "Utwórz pierwszy projekt",
 				"description": "Dodamy kilka zadań startowych, które pomogą ci się zorientować. Możesz je w każdej chwili zmienić lub usunąć.",
 				"label": "Nazwa projektu",
-				"numbered": "Zadania będą numerowane jako"
+				"ticketStart": "Identyfikatory zadań zaczną się od {{ticket}}."
 			},
 			"invite": {
 				"title": "Zaproś swój zespół",
@@ -444,7 +445,6 @@
 				"paymentNote": "Płatności obsługuje Creem."
 			},
 			"ready": {
-				"eyebrow": "Gotowe",
 				"title": "Obszar {{name}} jest gotowy",
 				"description": "Oto, co przygotowaliśmy. Wszystko możesz później zmienić.",
 				"workspace": "Obszar roboczy",
@@ -461,9 +461,6 @@
 				"open": "Otwórz obszar {{name}}"
 			},
 			"preview": {
-				"live": "Podgląd na żywo: {{name}}",
-				"liveNoName": "Podgląd na żywo",
-				"ready": "Obszar {{name}} jest gotowy",
 				"untitled": "Twój obszar roboczy"
 			}
 		},
@@ -3638,6 +3635,20 @@
 		}
 	},
 	"tasks": {
+		"dateFilter": {
+			"startDate": "Data rozpoczęcia",
+			"noDate": "Brak daty",
+			"condition": "Warunek daty",
+			"exact": "Dokładna data",
+			"range": "Zakres dat",
+			"before": "Przed",
+			"after": "Po",
+			"apply": "Zastosuj filtr daty",
+			"exactValue": "W dniu {{date}}",
+			"beforeValue": "Przed {{date}}",
+			"afterValue": "Po {{date}}",
+			"rangeValue": "{{date}} – {{end}}"
+		},
 		"title": "Zadania",
 		"actions": {
 			"archive": "Archiwizuj",
@@ -4173,7 +4184,11 @@
 		},
 		"board": {
 			"reorderFailed": "Nie udało się przenieść zadania. Spróbuj ponownie.",
-			"keyboardInstructions": "Naciśnij Spację, aby wyświetlić podgląd, i Enter, aby otworzyć to zadanie. Użyj Alt lub Option ze strzałkami, aby je przenieść."
+			"keyboardInstructions": "Naciśnij Spację, aby wyświetlić podgląd, i Enter, aby otworzyć to zadanie. Użyj Alt lub Option ze strzałkami, aby je przenieść.",
+			"loadErrorTitle": "Ta tablica się nie załadowała",
+			"loadErrorDescription": "Coś poszło nie tak podczas pobierania zadań. Sprawdź połączenie i spróbuj ponownie.",
+			"refreshError": "Nie udało się odświeżyć tablicy, więc może być nieaktualna.",
+			"tryAgain": "Spróbuj ponownie"
 		},
 		"recurrence": {
 			"daily_few": "Co {{count}} dni",
@@ -4213,7 +4228,9 @@
 			"showOnRows": "Pokaż w wierszach",
 			"checklistProgress": "Postęp listy kontrolnej",
 			"projectBackground": "Tło projektu",
-			"layout": "Układ"
+			"layout": "Układ",
+			"includeSubtasks": "Uwzględnij podzadania",
+			"useProjectDefault": "Użyj domyślnego ustawienia projektu"
 		},
 		"filterBar": {
 			"label": "Aktywne filtry",
@@ -4263,6 +4280,21 @@
 			"startsOn": "Początek: {{date}}",
 			"beforeStart": "{{date}} jest przed datą rozpoczęcia",
 			"afterDue": "{{date}} jest po terminie"
+		},
+		"timeTracking": {
+			"empty": "Nie zarejestrowano jeszcze czasu.",
+			"loadError": "Nie udało się wczytać wpisów czasu.",
+			"retry": "Spróbuj ponownie",
+			"running": "W toku",
+			"start": "Uruchom licznik",
+			"startError": "Nie udało się uruchomić licznika.",
+			"stop": "Zatrzymaj licznik",
+			"stopError": "Nie udało się zatrzymać licznika.",
+			"title": "Śledzenie czasu",
+			"unknownUser": "Nieznany",
+			"durationSeconds": "{{seconds, number}} s",
+			"durationMinutes": "{{minutes, number}} min",
+			"durationHoursMinutes": "{{hours, number}} godz. {{minutes, number}} min"
 		}
 	},
 	"press": {
@@ -4325,7 +4357,8 @@
 			"title": "Zarządzanie projektami,",
 			"titleAccent": "które nie staje się kolejnym projektem.",
 			"description": "Tablice, wykresy Gantta i integracja z GitHubem dla zespołów, które wolą dostarczać, niż zarządzać narzędziem do śledzenia zadań. Kaneo Cloud zajmuje się hostingiem, kopiami zapasowymi i aktualizacjami, więc możesz zacząć w kilka minut.",
-			"pricingCta": "Zobacz cennik"
+			"pricingCta": "Zobacz cennik",
+			"appStore": "App Store"
 		},
 		"navigation": {
 			"product": "Produkt",
@@ -4455,6 +4488,11 @@
 				"question": "Czy klienty AI mogą pracować z Kaneo?",
 				"answer": "Tak. Kaneo udostępnia serwer MCP w pakiecie @kaneo/mcp oraz jako endpoint HTTP. Zgodne klienty AI mogą odczytywać i aktualizować zadania za pomocą klucza API powiązanego z użytkownikiem, z zachowaniem uprawnień obszaru roboczego.",
 				"link": "Przeczytaj przewodnik po MCP"
+			},
+			"mobile": {
+				"answer": "Yes. Kaneo is on the App Store for iPhone and iPad, and Android is coming soon. The app is free for Kaneo Cloud accounts. Connecting it to a self-hosted server is a one-time $9.99 unlock per person, and like the rest of Kaneo, the app is open source.",
+				"link": "Download on the App Store",
+				"question": "Is there a mobile app?"
 			}
 		},
 		"comparison": {
@@ -4674,7 +4712,6 @@
 				"linkCopied": "Skopiowano link",
 				"more": "Więcej",
 				"editTitle": "Edytuj tytuł",
-				"editDescription": "Edytuj opis",
 				"addDescription": "Dodaj opis…"
 			}
 		},
@@ -4726,23 +4763,22 @@
 			"parentFailed": "Utworzono zadanie, ale nie udało się powiązać go z zadaniem nadrzędnym."
 		},
 		"editor": {
-			"description": "Opis",
 			"placeholder": "Dodaj opis… Działa Markdown.",
-			"write": "Edycja",
-			"preview": "Podgląd",
-			"nothingToPreview": "Brak treści do podglądu",
 			"bold": "Pogrubienie",
 			"italic": "Kursywa",
 			"heading": "Nagłówek",
 			"list": "Lista",
 			"code": "Kod",
 			"link": "Link",
-			"boldPlaceholder": "pogrubienie",
-			"italicPlaceholder": "kursywa",
-			"codePlaceholder": "kod",
-			"linkPlaceholder": "link",
 			"insertImage": "Wstaw obraz",
-			"attachment": "Załącznik"
+			"attachment": "Załącznik",
+			"applyLink": "Apply",
+			"checklist": "Checklist",
+			"linkUrl": "URL",
+			"numberedList": "Numbered list",
+			"quote": "Quote",
+			"removeLink": "Remove link",
+			"hideKeyboard": "Hide keyboard"
 		},
 		"composer": {
 			"reply": "Odpowiedz: {{name}}…",
@@ -5173,6 +5209,21 @@
 				"confirmPlaceholder": "Wpisz je ponownie",
 				"mismatch": "Hasła nie są zgodne",
 				"signOutOthers": "Wyloguj inne urządzenia"
+			},
+			"deleteAccount": {
+				"confirm": "Delete account",
+				"confirmLabel": "Type {{email}} to confirm",
+				"description": "Permanently delete your account and its data.",
+				"modalDescription": "This permanently deletes your account and cannot be undone. Workspaces only you belong to are deleted with it. Elsewhere, your tasks stay and become unassigned, and your comments are removed.",
+				"modalTitle": "Delete your account?",
+				"noPassword": "This account has no password. Leave the field empty.",
+				"password": "Password",
+				"passwordHint": "Leave empty if you sign in without a password.",
+				"sectionTitle": "Danger zone",
+				"sessionTooOld": "For your security, enter your password, or sign out and sign in again before deleting your account.",
+				"success": "Your account was deleted",
+				"title": "Delete account",
+				"wrongPassword": "That password is not correct."
 			}
 		},
 		"notificationSettings": {
